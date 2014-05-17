@@ -3,7 +3,7 @@
 /*}*/
 
 h1{
-  font-size: 1.1em;  
+  font-size: 1.1em;
 }
 
 .temadoboz {
@@ -25,7 +25,7 @@ h1{
 
 
 #d4 {
-  clear: left;  
+  clear: left;
 }
 
 .temadoboz ul {
@@ -50,7 +50,8 @@ nav li {
 }
 
 nav li a{
-  padding: 0.6em 0.5em 0.5em 40px;
+  padding: 7px 0.5em 0 40px;    
+  min-height: 26px;  
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
