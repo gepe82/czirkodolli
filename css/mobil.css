@@ -2,6 +2,10 @@
   font-size: 1.1em;
 }
 
+#fejlec div p {
+  text-align: center;
+}
+
 .temadoboz {
   float: left;
   width: 49.6%;

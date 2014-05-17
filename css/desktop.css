@@ -82,6 +82,17 @@ section {
   height: 3.125em;
 }
 
+#fejlec > div {  
+  position: absolute;
+  font-size: 0.8em;
+  right: 0;
+  top: 0;
+}
+
+#fejlec div p {
+  text-align: left;
+}
+
 #lablec {
   width: 43.125rem;
 }

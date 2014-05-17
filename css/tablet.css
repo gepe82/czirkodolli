@@ -16,8 +16,19 @@ h1 span:first-child:after {
   content: " - ";
 }
 
-#fejlec br {
+#fejlec h1 br {
   display: none;  
+}
+
+#fejlec > div {  
+  width: auto;
+  text-align: right;
+  line-height: 1.5;
+  margin-right: 1em;
+}
+
+#fejlec div p {
+  text-align: right;
 }
 
 .temadoboz {
