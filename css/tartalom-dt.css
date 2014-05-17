@@ -94,6 +94,10 @@ main {
   font-size: 0.8em;
 }
 
+main img {
+  width: 5rem; 
+}
+
 main article time {
   clear: none;
   margin-bottom: 0;
@@ -115,6 +119,6 @@ main article iframe {
   border-bottom: none;
 }
 
-main div:last-child {
+#ugras {
   display: none;
 }

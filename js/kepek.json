@@ -1,0 +1,61 @@
+{
+    "magamrol": {
+        "id": "magam",
+        "galleryName": "magamrol",
+        "title": "Magamról",
+        "pictures": [
+            {
+                "src": "img_3272.jpg",
+                "alt": "img_3272.jpg"
+                
+            },
+            {
+                "src": "img_3273.jpg",
+                "alt": "img_3273.jpg"
+                
+            },
+            {
+                "src": "img_3275.jpg",
+                "alt": "img_3275.jpg"
+                
+            },
+            {
+                "src": "img_3279.jpg",
+                "alt": "img_3279.jpg"
+                
+            }
+        ]
+    },
+    "irodarol": {
+        "id": "iroda",
+        "galleryName": "irodarol",
+        "title": "Az irodáról",
+        "pictures": [
+            {
+                "src": "img_3266.jpg",
+                "alt": "img_3266.jpg"
+                
+            },
+            {
+                "src": "img_3267.jpg",
+                "alt": "img_3267.jpg"
+                
+            },
+            {
+                "src": "img_3268.jpg",
+                "alt": "img_3268.jpg"
+                
+            },
+            {
+                "src": "img_3270.jpg",
+                "alt": "img_3270.jpg"
+                
+            },
+            {
+                "src": "img_3277.jpg",
+                "alt": "img_3277.jpg"
+                
+            }
+        ]
+    }
+}

@@ -4,13 +4,22 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Czirkó Dolli weboldala</title>
+    <link rel="icon" type="image/jpg" href="img/logo.jpg" sizes="16x16 32x32" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
     <link rel="stylesheet" href="css/tartalom.css" media="screen,handheld" type="text/css" />
     <link rel="stylesheet" href="css/tartalom-dt.css" media="only screen and (min-width:481px)" />
+    <link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.min.css" media="all" />    
+    <link type="text/css" rel="stylesheet" href="css/prettyPhoto.css" media="all" />
     <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <link rel="stylesheet" href="css/ie8-sub.css" type="text/css" />
     <![endif]-->
+    <!--<script type="text/javascript" src="js/jquery-1.10.1.min.map.js"></script>-->
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>    
+    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="js/kepek.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto-compressed.js"></script>    
 </head>
 <body>
     <div id="befoglalo">
@@ -27,26 +36,67 @@
         <section id="sor1">
 	    <div class="temadoboz" id="d2">
                 <ul>
-                    <li><a href="#">Magamról</a></li>
-                    <li><a href="#">Az irodáról</a></li>
+                    <li><a href="#magam">Magamról</a></li>
+                    <li><a href="#iroda">Az irodáról</a></li>
                 </ul>
             </div>
             <main>
                 <article>
-                    <h2>Pictures</h2>
-                    <time>2013-08-22</time>
+                    <h2>Képek megtekintése</h2>
+                    <time>2013-10-11</time>
                     <p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-			sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			A képeket úgy tudja megtekinteni galériaként, hogy valamelyik képre rákattint. A léptetést a kép bal vagy jobb oldalára kattintással vagy érintéssel tudja megtenni.
                     </p>
                 </article>
-                <div><a href="#lapteto">ugrás a lap tetejére</a></div>
+		<div id="accordion">
+		    <!--<h3 id="magam">Magamról</h3>
+		    <div>
+			<a href="pict/IMG_2629.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2629.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2632.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2632.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2634.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2634.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2635.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2635.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2636.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2636.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2637.JPG" rel="prettyPhoto[magamrol]" title="">
+			  <img src="pict/IMG_2637.JPG" alt="" />
+			</a>
+		    </div>
+		    <h3>Az irodáról</h3>
+		    <div>
+			<a href="pict/IMG_2638.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2638.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2639.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2639.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2640.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2640.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2641.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2641.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2642.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2642.JPG" alt="" />
+			</a>
+			<a href="pict/IMG_2643.JPG" rel="prettyPhoto[irodarol]" title="">
+			  <img src="pict/IMG_2643.JPG" alt="" />
+			</a>
+		    </div>-->
+		</div>
+                <div id="ugras"><a href="#lapteto">ugrás a lap tetejére</a></div>
             </main>
             <div class="temadoboz" id="d1"><img src="img/phoneboxes.jpg" alt="Galéria menüképe" /></div>            
         </section>        
         <footer id="lablec"></footer>
-    </div>
+    </div>    
 </body>
 </html>
