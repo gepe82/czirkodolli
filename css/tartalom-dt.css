@@ -16,7 +16,7 @@ section {
 
 nav {
   width: 100%;
-  background-color: hsla(48, 100%, 51%, 0.8);
+  background-color: #f00;
   margin-top: 153px;
   position: absolute;
   z-index: -1;
@@ -24,8 +24,8 @@ nav {
 
 nav > ul {
   max-width: 690px;
-  border-right: 5px solid hsla(48, 100%, 51%, 0.8);
-  background-right-color: #fff;
+  border-right: 5px solid hsl(0, 100%, 50%);
+  background-color: #fff;
 }
 
 nav > ul li {
@@ -41,6 +41,10 @@ nav li a {
   float: left;
   width: 171px;
   height: 152px;
+}
+
+.temadoboz:nth-child(3) {
+  /*border: 1px solid red;*/
 }
 
 .temadoboz li a {

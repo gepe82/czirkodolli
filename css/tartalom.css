@@ -5,6 +5,10 @@ body {
   margin-top: 25px;
 }
 
+strong{
+  font-weight: bold;
+}
+
  #befoglalo {
   width: 100%;
   margin-top: 0;
@@ -60,7 +64,7 @@ nav > ul {
   margin: 0 auto;
   list-style: none;
   height: 45px;
-  background-right-color: #fff;
+  background-color: #fff;
 }
 
 nav > ul li {
@@ -183,23 +187,23 @@ nav li a:hover,
 }
 
 #magamrol {
-  background: hsl(199, 38%, 57%) url('../img/ab2.jpg') no-repeat 10px center;
+  background: hsl(0, 0%, 0%) url('../img/haz3.jpg') no-repeat 10px center;
 }
 
-#szolgaltatasok{
-  background: hsl(32, 36%, 35%) url('../img/2-serv2.jpg') no-repeat 10px center;
+#szolgaltatasok {
+  background: hsl(0, 100%, 50%) url('../img/szerszamok3.jpg') no-repeat 10px center;
 }
 
-#kepek{
-  background: hsl(22, 92%, 47%) url('../img/3-prod2.jpg') no-repeat 10px center;
+#kepek {
+  background: hsl(0, 0%, 0%) url('../img/galeria3.jpg') no-repeat 10px center;
 }
 
-#kapcsolat{
-  background: hsl(75, 99%, 40%) url('../img/4-cont2.jpg') no-repeat 10px center;
+#kapcsolat {
+  background: hsl(0, 0%, 50%) url('../img/kukac3.jpg') no-repeat 10px center;
 }
 
 main {
-  background-color: hsl(199, 38%, 57%);
+  background-color: #939fa6; /*hsl(199, 38%, 57%)*/
   border: 1px solid red;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -248,7 +252,7 @@ main article iframe,
 
 main article iframe {
   min-height: 100px;
-  overflow: show;
+  overflow: visible;
 }
 
 main article figcaption {
@@ -256,7 +260,7 @@ main article figcaption {
 }
 
 main article h2 {
-  color: #66A0BB;
+  color: #000; /*#66A0BB*/
   font-size: 1.5em;
   font-weight: bold;
   float: left;

@@ -34,6 +34,7 @@ nav {
 nav li {
   float: left;
   width: 49.6%;
+  border-bottom: 1px solid #fff;
 }
 
 nav li a {

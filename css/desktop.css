@@ -10,20 +10,21 @@ nav {
   overflow: hidden;
   width: 100%;
   clear: both;
-  background-color: hsla(48, 100%, 51%, 0.8);
+  background-color: hsl(0, 100%, 50%); /*#CD1925*/
   height: 45px;
   border-top: 1px solid #fff;
   margin: 0 auto;
   box-shadow: 0 0px 2px 3px rgba(0, 0, 0, 0.15);
   max-width: none;
   min-height: 0;
+  border-radius: 0;
 }
 
 nav > ul {
   margin: 0 auto;
   width: 690px;
   height: 45px;
-  border-right: 5px solid hsla(48, 100%, 51%, 0.8);
+  border-right: 5px solid #f00; /*#CD1925*/
 }
 
 nav > ul li {
@@ -37,22 +38,6 @@ nav li a {
   padding: 0.9em 0 0 50px;
   height: 45px;
   font-size: 0.825em;
-}
-
-#magamrol {
-  background: hsl(199, 38%, 57%) url('../img/ab2.jpg') no-repeat 10px center;
-}
-
-#szolgaltatasok {
-  background: hsl(32, 36%, 35%) url('../img/2-serv2.jpg') no-repeat 10px center;
-}
-
-#kepek {
-  background: hsl(22, 92%, 47%) url('../img/3-prod2.jpg') no-repeat 10px center;
-}
-
-#kapcsolat {
-  background: hsl(75, 99%, 40%) url('../img/4-cont2.jpg') no-repeat 10px center;
 }
 
 section {
@@ -73,9 +58,9 @@ section {
   max-height: 152px;
 }
 
-.temadoboz ul{
+.temadoboz ul {
   font-size: 1.25em;
-  margin: 0.5 0.2 0.2 0.5em;
+  /*margin: 0.5em 0.2em 0.2em 0.5em;*/
 }
 
 .temadoboz li {
@@ -109,4 +94,8 @@ section {
   display: none;
   left: -10000px;
   position: absolute;
+}
+
+#magamrol, #kepek, #szolgaltatasok, #kapcsolat {
+  background-size: 36px;
 }

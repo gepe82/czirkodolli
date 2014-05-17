@@ -23,7 +23,7 @@ section {
 
 nav {
   width: 100%;
-  background-color: #FFCD05;
+  background-color: #f00;
   margin-top: 153px;
   position: absolute;
   z-index: -1;
@@ -120,19 +120,19 @@ main div:last-child {
 }
 
 #magamrol {
-  background: #67A0BB url('../img/ab2.jpg') no-repeat 10px center;
+  background: #000 url('../img/haz3.jpg') no-repeat 10px center;
 }
 
 #szolgaltatasok {
-  background: #795B39 url('../img/2-serv2.jpg') no-repeat 10px center;
+  background: #f00 url('../img/szerszamok3.jpg') no-repeat 10px center;
 }
 
 #kepek {
-  background: #E65A09 url('../img/3-prod2.jpg') no-repeat 10px center;
+  background: #000 url('../img/galeria3.jpg') no-repeat 10px center;
 }
 
 #kapcsolat {
-  background: #98CA01 url('../img/4-cont2.jpg') no-repeat 10px center;
+  background: #7f7f7f url('../img/kukac3.jpg') no-repeat 10px center;
 }
 
 main div {

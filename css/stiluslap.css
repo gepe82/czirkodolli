@@ -19,7 +19,7 @@ a, a:link, a:hover, a:visited, a:active {
 
 nav {
   border-bottom: 1px solid #fff;
-  background-color: #fff;
+  background-color: #fff;  
 }
 
 nav > ul {
@@ -62,21 +62,20 @@ nav > ul li:hover {
   -ms-transform: rotateX(360deg);
 }
 
-
 #magamrol {
-  background: hsl(199, 38%, 57%) url('../img/ab2.jpg') no-repeat 10px center;
+  background: hsl(0, 0%, 0%) url('../img/haz3.jpg') no-repeat 10px center;
 }
 
-#szolgaltatasok{
-  background: hsl(32, 36%, 35%) url('../img/2-serv2.jpg') no-repeat 10px center;
+#szolgaltatasok {
+  background: hsl(0, 100%, 50%) url('../img/szerszamok3.jpg') no-repeat 10px center;
 }
 
-#kepek{
-  background: hsl(22, 92%, 47%) url('../img/3-prod2.jpg') no-repeat 10px center;
+#kepek {
+  background: hsl(0, 0%, 0%) url('../img/galeria3.jpg') no-repeat 10px center;
 }
 
-#kapcsolat{
-  background: hsl(75, 99%, 40%) url('../img/4-cont2.jpg') no-repeat 10px center;
+#kapcsolat {
+  background: hsl(0, 0%, 50%) url('../img/kukac3.jpg') no-repeat 10px center;
 }
 
 section {
