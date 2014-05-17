@@ -87,6 +87,10 @@ main article time {
   margin-bottom: 0;
 }
 
+main article iframe {
+  min-height: 500px;
+}
+
 #menu {
   float: right;
   margin-right: 15px;

@@ -143,17 +143,28 @@ nav li a:hover,
   box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
-#sor1 .temadoboz,
-  #sor1 .temadoboz img {
+#d1,
+  #d1 img {
   transition: border-top-left-radius 0.5s;
   -webkit-transition: border-top-left-radius 0.5s;
 }
 
-#sor1 .temadoboz:hover,
-  #sor1 .temadoboz:focus,
-  #sor1 .temadoboz img:hover {
+#d1:hover,
+  #d1:focus,
+  #d1 img:hover {
   border-top-left-radius: 50px;
   /*-webkit-filter: opacity(0.95);*/
+}
+
+#d2{
+  transition: border-bottom-left-radius 0.5s;
+  -webkit-transition: border-bottom-left-radius 0.5s;
+}
+
+#d2:hover,
+  #d2:focus,
+  #d2:active {
+  border-bottom-left-radius: 50px;
 }
 
 #fejlec {
@@ -224,6 +235,24 @@ main article,
   padding: 10px;
   border-radius: 5px;
   box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+main article iframe,
+  main article img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+main article iframe {
+  min-height: 100px;
+  overflow: show;
+}
+
+main article figcaption {
+  text-align: center;
 }
 
 main article h2 {

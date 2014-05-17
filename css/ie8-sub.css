@@ -86,12 +86,16 @@ nav li a {
 }
 
 main {
-  float: right;  
+  float: right;
   min-height: 353px;
   max-width: 521px;
   margin-left: 172px;
   font-size: 0.8em;
   background-color: #67A0BB;
+}
+
+main article iframe {
+  min-height: 500px;
 }
 
 main article time {
