@@ -8,8 +8,8 @@ h1 a {
   background: #fff url('../img/logo.svg') no-repeat 1.875rem center;
   background-size: 3.125rem;
   /*padding: 1.5625rem 0 0 6.25rem;*/
-  padding: 1.5625rem 0 0.9375rem 6.25rem;
-  margin: 0 0 1rem 0;
+  padding: 1rem 0 0 6.25rem;
+  margin: 0 0 0.5rem 0;
 }
 
 h1 span:first-child:after {

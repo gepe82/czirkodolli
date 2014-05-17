@@ -54,7 +54,7 @@ main article {
 }
 
 .temadoboz img {
-    max-height: 0;
+    max-height: 100%;
 }
 
 

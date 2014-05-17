@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
     <link rel="stylesheet" href="css/stiluslap.css" media="screen,handheld" />
     <link rel="stylesheet" href="css/media.css" media="screen,handheld" />
-    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/js.js"></script>
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,14 +21,15 @@
 
     <div id="befoglalo">
         <div id="menu"><a href="#nav">menü</a></div>
-        <header id="fejlec">
+        <header role="contentinfo" id="fejlec">
             <h1>
 		<a href="index.html" title="Ugrás a főoldalra">
 		    <span>Czirkó Dolli</span><br /><span>Office English</span>
+                    <div>több mint angol ...</div>
                 </a>
 	    </h1>
         </header>
-        <section id="sor1">
+        <section role="section" id="sor1">
             <div class="temadoboz" id="d1"><img src="img/cup_and_book.jpg" alt="" /></div>
             <div class="temadoboz">
                 <ul>
@@ -45,7 +47,7 @@
                 </ul>
             </div>
         </section>
-        <nav id="nav">
+        <nav role="navigation" id="nav">
             <ul>
                 <li id="magamrol"><a href="magamrol.html" tabindex="1">Magamról</a></li>
                 <li id="szolgaltatasok"><a href="szolgaltatasok.html" tabindex="2">Szolgáltatások</a></li>
@@ -53,7 +55,7 @@
                 <li id="kapcsolat"><a href="kapcsolat.html" tabindex="4">Elérhetőség</a></li>
             </ul>
         </nav>
-        <section id="sor2">
+        <section role="section" id="sor2">
             <div class="temadoboz" id="d5">
                 <ul>
                     <li><a href="magamrol.html#bemutatkozas" tabindex="5">Bemutatkozás</a></li>
@@ -70,7 +72,7 @@
             </div>
             <div class="temadoboz" id="d8"><img src="img/underground5.jpg" alt="" /></div>
         </section>
-        <footer id="lablec">
+        <footer role="contentinfo" id="lablec">
             <!--<p>
             <img src="img/chrome-icon.jpg" alt="Chrome icon" class="icons" title="Chrome 20+" />
             <img src="img/firefox-icon.jpg" alt="Firefox icon" class="icons" title="Firefox 20+" />
@@ -81,7 +83,7 @@
             <img src="img/css3.svg" alt="CSS3" class="icons" title="Powered with CSS3" />
             <img src="img/rwd.svg" alt="CSS3" class="icons" title="Powered with Responsive Web Design" />
             </p>-->
-            <p>&copy; 2013 Geri Péter | v. 1.0</p>
+            <p>&copy; 2014 Geri Péter | v. 1.1</p>
         </footer>
     </div>
 </body>
