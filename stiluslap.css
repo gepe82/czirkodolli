@@ -24,11 +24,10 @@ body{
   /*border: 1px solid orange;*/
 }
 
-
 #befoglalo{
     width: 100%;
     margin-top: 0px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     box-sizing: border-box;    
 }
 
@@ -39,11 +38,12 @@ a, a:link, a:hover, a:visited, a:active {
 }
 
 nav{        
-    background-color: hsla(48, 100%, 51%, 0.8);
+    
     box-shadow: 0 0px 2px 3px rgba(0, 0, 0, 0.15);
 
     border-bottom: 1px solid #fff;
     
+    background-color: #fff;
     /*clear: both;*/
     /*height: 2,8125em;*/
     /*border-top: 1px solid #fff;*/
@@ -95,7 +95,7 @@ nav li a{
   display: block;
   /*height: inherit;*/
   /*width: 100%;*/
-  padding: 1em 1em 1em 3em;
+  padding: 1em 1em 1em 50px;
 }
 
 nav>ul li:hover{
@@ -156,72 +156,89 @@ section>div>ul li:hover{
     -moz-transition-duration: 0.75s;
 }
 
-.temadoboz{    
-    padding-top: 1.25em;
-    padding-left: 1.875em;
+.temadoboz{
     border-left: 1px solid #fff;    
-    border-radius: 10px;    
-    line-height: 200%;
-    font-size: 0.9em;
+    border-radius: 10px;
     color: rgba(0, 0, 0, 0.7);
     
+    
+    /*width: inherit;*/
     /*float: left;*/    
-    /*height: 132px;*/
+    /*height: 198px;*/
     /*padding-top: 20px;*/
     /*padding-left: 30px;*/
-    height: 10em;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+        
+
 }
 
-#sor1 .temadoboz{
-    
-    border-top: 1px solid #fff;
-    box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.3);
-    -moz-transition-property: border-top-left-radius, filter;
+.temadoboz ul{
+  /*border: 1px solid green;*/
+  padding: 1.25em 0.5em 1.25em 1.875em;
+  line-height: 150%;
+  font-size: 1.2em;  
+}
+
+.temadoboz li a:hover,
+  .temadoboz li a:active,
+  .temadoboz li a:focus{
+    text-decoration: underline;
+  }
+
+.temadoboz img{  
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  /*max-height: 132px;*/  
+  border-radius: 10px;
+  z-index: -1;
+  display: block;
+}
+
+#sor1 .temadoboz,
+  #sor1 .temadoboz img {    
+    -moz-transition-property: border-top-left-radius; /*, filter*/
     -moz-transition-duration: 0.5s;
-    -webkit-transition-property: border-top-left-radius, filter;
-    -webkit-transition-duration: 0.5s;
-    
+    -webkit-transition-property: border-top-left-radius; /*, filter*/
+    -webkit-transition-duration: 0.5s;    
 }
 
-#sor1 .temadoboz:hover{    
+#sor1 .temadoboz {
+  border-top: 1px solid #fff;
+  box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#sor1 .temadoboz:hover,
+  #sor1 .temadoboz:focus,
+  #sor1 .temadoboz img:hover {
     border-top-left-radius: 50px;
     /*-webkit-filter: opacity(0.95);*/
 }
 
+#sor2 .temadoboz,
+  #sor2 .temadoboz img {  
+  -moz-transition-property: border-bottom-left-radius;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-property: border-bottom-left-radius;
+  -webkit-transition-duration: 0.5s;
+}
 
 #sor2 .temadoboz{
   border-bottom: 1px solid #fff;
   box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
-  -moz-transition-property: border-bottom-left-radius;
-  -moz-transition-duration: 0.5s;
-  -webkit-transition-property: border-bottom-left-radius, filter;
-  -webkit-transition-duration: 0.5s;
 }
 
-#sor2 .temadoboz:hover{    
+#sor2 .temadoboz:hover,
+  #sor2 .temadoboz:focus,
+  #sor2 .temadoboz img:hover {
     border-bottom-left-radius: 50px;
     /*-webkit-filter: opacity(0.95);*/
 }
 
-#fejlec{
-    color: rgba(0, 0, 0, 0.5);
-    background: #fff url('img/logo.jpg') no-repeat center 0.2em;
-    /*width: 100%;*/
-    margin: 0 auto;
-    height: 1em; /*!*/
-    font-weight: bold;
-    font-size: 1em;
-    /*padding: 3.5em 0.1em 1.5em 1em;*/
-    border: 1px solid red;
-    white-space: nowrap;
-    
-    height: 1em;
-    text-align: center;
-    padding: 3.5em 0 0.5em;
-    
+#fejlec{  
+  background: #fff url('img/logo.jpg') no-repeat center 0.2em;
+  /*width: 100%;*/      
+  /*padding: 3.5em 0.1em 1.5em 1em;*/      
+  
   -webkit-animation-name: beuszas;
   -webkit-animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;  
@@ -230,7 +247,16 @@ section>div>ul li:hover{
   animation-timing-function: ease-in-out;
 }
 
-
+h1 {
+  color: rgba(0, 0, 0, 0.5);
+  min-height: 1em; /*!*/
+  text-align: center;
+  padding: 3.5em 0 0.5em;
+  margin: 0 auto;
+  font-weight: bold;
+  /*white-space: nowrap;*/
+  font-size: 1.2em;
+}
 
 #lablec{
     width: 100%;
@@ -244,19 +270,19 @@ section>div>ul li:hover{
 }
 
 #d1{
-    background-image: url('img/f-p.jpg');    
+    /*background-image: url('img/f-p.jpg');*/
 }
 
 #d3{
-    background-image: url('img/3-f-p.jpg');
+    /*background-image: url('img/3-f-p.jpg');*/
 }
 
 #d6{
-    background-image: url('img/2-f-p.jpg');
+    /*background-image: url('img/2-f-p.jpg');*/
 }
 
 #d8{
-    background-image: url('img/4-f-p.jpg');
+    /*background-image: url('img/4-f-p.jpg');*/
 }
 
 

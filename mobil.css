@@ -1,0 +1,38 @@
+.h1{
+    font-size: 1.1em;
+}
+.temadoboz {
+    float: left;
+    width: 49.6%;
+    min-width: 150px;
+    min-height: 130px;
+    font-size: 0.8em;
+}
+
+#sor1 .temadoboz {
+    border-radius: 10px 10px 0 0;    
+}
+
+.temadoboz:nth-child(odd) {
+    clear: left;
+    /*border: 1px solid red;*/
+}
+
+.temadoboz ul {
+    font-size: 1.1em;
+    padding: 1em 0.5em 1em 1.5em;
+}
+
+nav {
+    clear: both;
+}
+
+nav li {
+    float: left;
+    width: 49.6%;    
+}
+
+nav li a {
+    font-size: 0.8em;
+    padding-top: 1.1em;    
+}
