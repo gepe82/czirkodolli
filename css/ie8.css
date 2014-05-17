@@ -2,24 +2,42 @@
 
 h1 {
   font-size: 1.5em;
-  padding: 25px 0 15px 100px;
+  margin: 0 auto;
   text-align: left;
   font-weight: bold;
   white-space: nowrap;
   color: #7f7f7f;
+  /*border: 1px solid green;*/
 }
 
-a, a:link, a:hover, a:visited, a:active {
+h1 a {
+  background: #fff url('../img/logo.jpg') no-repeat center 0.2em;
+  display: block;
+  /*border: 1px solid red;*/
+  padding: 25px 0 15px 100px;
+  background: #fff url('../img/logo-ie.jpg') no-repeat 30px center;
+  width: 350px;
+}
+
+h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #7f7f7f;
+}
+
+a, a:link, a:visited, a:active {
+  color: #f00;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
 }
 
 section > div > ul {
-  list-style-image: url('../img/list-l.jpg');  
+  list-style-image: url('../img/list-l.jpg');
 }
 
 section > div > ul li:hover{
-  list-style-image: url('../img/list-r.jpg');  
+  list-style-image: url('../img/list-r.jpg');
 }
 
 nav {
@@ -97,15 +115,22 @@ section {
   margin-bottom: 1.5em;
 }
 
-.temadoboz li a {
+.temadoboz li a,
+  .temadoboz li a:hover,
+  .temadoboz li a:active,
+  .temadoboz li a:focus {
   font-size: 0.875em;
+  color: #1a1a1a;
+}
+
+#sor2 .temadoboz{
+  border-bottom: 1px solid #fff;
 }
 
 #fejlec {
-  background: #fff url('../img/logo-ie.jpg') no-repeat 30px center;
   width: 690px;
-  margin: 50px auto 25px;
   height: 50px;
+  margin: 16px auto 25px;
 }
 
 #lablec {
@@ -125,4 +150,13 @@ section {
   display: none;
   left: -10000px;
   position: absolute;
+  border: 1px solid #fff;
+}
+
+#fejlec br {
+  display: none;
+}
+
+h1 span:first-child:after {
+  content: " - ";
 }

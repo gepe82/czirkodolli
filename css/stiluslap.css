@@ -3,7 +3,7 @@
 @import url('stiluslap-spec.css') screen,handheld;
 
 body {
-  margin-top: 1.5625em;/*25px*/
+  margin-top: 1.5625em;
 }
 
 #befoglalo {
@@ -13,13 +13,17 @@ body {
 }
 
 
-a, a:link, a:hover, a:visited, a:active {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.9);
+a, a:link, a:visited, a:active { 
+  text-decoration: none;  
+  color: #f00;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
 }
 
 nav {
-  border-bottom: 0.0625rem solid #fff;/*1px*/
+  border-bottom: 0.0625rem solid #fff;
   background-color: #fff;  
 }
 
@@ -80,12 +84,12 @@ section {
 
 section > div > ul {
   list-style-image: url('../img/list-l.svg');
-  transition-property: list-stlye-image;
+  /*transition-property: list-stlye-image;*/
 }
 
 section > div > ul li:hover{
   list-style-image: url('../img/list-r.svg');
-  transition-duration: 0.75s;
+  /*transition-duration: 0.75s;*/
 }
 
 .temadoboz {
@@ -103,13 +107,14 @@ section > div > ul li:hover{
   margin-bottom: 1.5em;
 }
 
-.temadoboz li a:hover,
+.temadoboz li a,
+  .temadoboz li a:hover,
   .temadoboz li a:active,
   .temadoboz li a:focus {
-  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.temadoboz img{
+.temadoboz img {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -125,14 +130,14 @@ section > div > ul li:hover{
 }
 
 #sor1 .temadoboz {
-  border-top: 1px solid #fff;
+  border-top: 0.0625rem solid #fff;
   box-shadow: -0.25rem -0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*4px -5px 8px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #sor1 .temadoboz:hover,
   #sor1 .temadoboz:focus,
   #sor1 .temadoboz img:hover {
-  border-top-left-radius: 3.125rem;/*50px*/
+  border-top-left-radius: 3.125rem;
 }
 
 #sor2 .temadoboz,
@@ -141,30 +146,43 @@ section > div > ul li:hover{
 }
 
 #sor2 .temadoboz{
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.0625rem solid #fff;
   box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px 5px 8px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #sor2 .temadoboz:hover,
   #sor2 .temadoboz:focus,
   #sor2 .temadoboz img:hover {
-  border-bottom-left-radius: 3.125rem;/*50px*/
+  border-bottom-left-radius: 3.125rem;
 }
 
-#fejlec{
-  background: #fff url('../img/logo.svg') no-repeat center 0.2em;
+#fejlec{  
   animation: beuszas 2s ease-in-out;
-  background-size: 3.125rem;/*50px*/
 }
 
 h1 {
   color: rgba(0, 0, 0, 0.5);
   min-height: 1em;
   text-align: center;
-  padding: 3.5em 0 0.5em;
+  /*padding: 2em 0 0.5em;*/
   margin: 0 auto;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2em;
+  min-height: 2rem;
+}
+
+h1 a {
+  background: #fff url('../img/logo.svg') no-repeat center 0.2em;
+  display: block;
+  /*border: 1px solid red;  */
+  background-size: 3.125rem;
+  margin: 1rem auto 0;
+  padding: 2em 0 0.5em;  
+}
+
+h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 #lablec{
@@ -187,13 +205,13 @@ h1 {
     top: 0;
     right: 0;
     background-color: #939fa6;
-    border: 1px solid #fff;
-    height: 1.5625rem;/*25px*/
+    border: 0.0625rem solid #fff;
+    height: 1.5625rem;
     z-index: 2;
     padding: 0 0.4em;
     text-align: center;
-    border-bottom-left-radius: 0.1875rem;/*3px*/
-    border-bottom-right-radius: 0.1875rem;/*3px*/
+    border-bottom-left-radius: 0.1875rem;
+    border-bottom-right-radius: 0.1875rem;
     box-shadow: -0.0625rem 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.3);/*-1px 1px 2px 1px rgba(0, 0, 0, 0.3)*/
 }
 
@@ -201,8 +219,8 @@ h1 {
     display: block;
     color: #fff;
     font-weight: bold;
-    text-shadow: 0 0 5px #fff;
-    height: 1.5625rem;/*25px*/
+    text-shadow: 0 0 0.3125rem #fff;
+    height: 1.5625rem;
     transition: text-shadow 0.2s;
 }
 
@@ -214,7 +232,7 @@ h1 {
  }
 
  #menu a:hover {
-    text-shadow: 0 0 0.0625rem #fff;/*1px*/
+    text-shadow: 0 0 0.0625rem #fff;
  }
 
 @keyframes beuszas {

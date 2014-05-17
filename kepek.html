@@ -7,7 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
     <link rel="stylesheet" href="css/tartalom.css" media="screen,handheld" type="text/css" />
-    <link rel="stylesheet" href="css/tartalom-dt.css" media="only screen and (min-width:481px)" />
+    <link rel="stylesheet" href="css/tartalom-dt.css" media="only screen and (min-width:560px)" />
+    <link rel="stylesheet" href="css/tartalom-l.css" media="only screen and (min-width:1280px)" />
     <link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.min.css" media="all" />
     <link type="text/css" rel="stylesheet" href="css/prettyPhoto.css" media="all" />
     <!--[if lt IE 9]>
@@ -20,13 +21,18 @@
     <script type="text/javascript" src="js/kepek.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto-compressed.js"></script>
+    <script src="js/js.js"></script>
 </head>
 <body>
     <div id="befoglalo">
         <a id="lapteto"></a>
         <header id="fejlec">
-            <h1>Czirkó Dolli - Office English</h1>
-            <div id="menu"><a href="index.html" tabindex="3">főoldal</a></div>
+            <h1>
+		<a href="index.html" title="Ugrás a főoldalra">
+		    <span>Czirkó Dolli</span><br /><span>Office English</span>
+                </a>
+	    </h1>
+            <div id="menu"><a href="index.html" tabindex="4">főoldal</a></div>
         </header>
 	<nav>
             <ul>
@@ -36,8 +42,8 @@
         <section id="sor1">
 	    <div class="temadoboz" id="d2">
                 <ul>
-                    <li><a href="#iroda" tabindex="1">Az iroda és én</a></li>
-                    <li><a href="#irodahaz" tabindex="2">Az irodaház</a></li>
+                    <li><a id="a_iroda" href="#iroda" tabindex="1">Az iroda és én</a></li>
+                    <li><a id="a_irodahaz" href="#irodahaz" tabindex="2">Az irodaház</a></li>
                 </ul>
             </div>
             <main>
@@ -45,13 +51,64 @@
                     <h2>Képek megtekintése</h2>
                     <time>2013-10-11</time>
                     <p>
-			A képeket úgy tudja megtekinteni galériaként, hogy
-			valamelyikre rákattint vagy megérinti. A léptetést a kép
+			A képeket úgy tudja megtekinteni<span class="js_show"> galériaként</span>, hogy
+			valamelyikre rákattint vagy megérinti. <span class="js_show">A léptetést a kép
 			bal vagy jobb oldalára kattintással vagy érintéssel
-			tudja megtenni.
+			tudja megtenni.</span>
                     </p>
+		    <p>
+			<strong>Kérem, válasszon témát:</strong>
+		    </p>
                 </article>
 		<div id="accordion"></div>
+		
+		<div id="accordion_wojs" class="ui-accordion ui-widget ui-helper-reset" style="margin: 10px 10px 10px 15px; box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);" role="tablist">
+		    <h3 id="iroda" class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-0" aria-selected="true" tabindex="0">
+			<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+			Az iroda és én
+		    </h3>
+		    <div id="ui-accordion-accordion-panel-0" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: block;" aria-labelledby="iroda" role="tabpanel" aria-expanded="true" aria-hidden="false">
+			<a rel="prettyPhoto[iroda]" href="pict/img_3552.jpg">
+			    <img title="Az ajtóból" alt="Az ajtóból" src="pict/thumb/img_3552.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3536.jpg">
+			    <img title="Kis képek" alt="Kis képek" src="pict/thumb/img_3536.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3267.jpg">
+			    <img title="Teásasztal és kis képek" alt="Teásasztal és kis képek" src="pict/thumb/img_3267.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3543.jpg">
+			    <img title="Polcok és fogas" alt="Polcok és fogas" src="pict/thumb/img_3543.jpg">
+			</a>			
+			<a rel="prettyPhoto[iroda]" href="pict/img_3523.jpg">
+			    <img title="Ez én vagyok(2)" alt="Ez én vagyok(1)" src="pict/thumb/img_3523.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3534.jpg">
+			    <img title="Munka közben :) (1)" alt="Munka közben :) (1)" src="pict/thumb/img_3534.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3545.jpg">
+			    <img title="Ez én vagyok(3)" alt="Ez én vagyok(2)" src="pict/thumb/img_3545.jpg">
+			</a>
+			<a rel="prettyPhoto[iroda]" href="pict/img_3535.jpg">
+			    <img title="Munka közben :) (2)" alt="Munka közben :) (2)" src="pict/thumb/img_3535.jpg">
+			</a>
+		    </div>
+		    <h3 id="irodahaz" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" aria-controls="ui-accordion-accordion-panel-1" aria-selected="false" tabindex="-1">
+			<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+			Az irodaházról
+		    </h3>
+		    <div id="ui-accordion-accordion-panel-1" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" aria-labelledby="irodahaz" role="tabpanel" aria-expanded="false" aria-hidden="true">
+			<a rel="prettyPhoto[irodahaz]" href="pict/goldiroda_utcakep.jpg">
+			    <img title="Utcakép az irodaházról" alt="Utcakép az irodaházról" src="pict/thumb/goldiroda_utcakep.jpg">
+			</a>
+			<a rel="prettyPhoto[irodahaz]" href="pict/belso_udvar.jpg">
+			    <img title="Az irodaház belső udvara" alt="Az irodaház belső udvara" src="pict/thumb/belso_udvar.jpg">
+			</a>
+			<a rel="prettyPhoto[irodahaz]" href="pict/recepcio.jpg">
+			    <img title="Recepció.jpg" alt="Recepció.jpg" src="pict/thumb/recepcio.jpg">
+			</a>
+		    </div>
+		</div>
                 <div class="ugras"><a href="#lapteto">ugrás a lap tetejére</a></div>
             </main>
             <div class="temadoboz" id="d1"><img src="img/phoneboxes.jpg" alt="Galéria menüképe" /></div>

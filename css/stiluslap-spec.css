@@ -12,13 +12,13 @@ nav > ul li:hover {
   -ms-transform: rotateX(360deg);
 }
 
-section > div > ul {
+/*section > div > ul {
   -webkit-transition-property: list-style-image;
-}
+}*/
 
-section > div > ul li:hover{
+/*section > div > ul li:hover{
   -webkit-transition-duration: 0.75s;
-}
+}*/
 
 #sor1 .temadoboz,
   #sor1 .temadoboz img {
@@ -38,7 +38,7 @@ section > div > ul li:hover{
 
 #sor2 .temadoboz:hover,
   #sor2 .temadoboz:focus,
-  #sor2 .temadoboz img:hover { 
+  #sor2 .temadoboz img:hover {
   /*-webkit-filter: opacity(0.95);*/
 }
 

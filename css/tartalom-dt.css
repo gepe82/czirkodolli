@@ -1,16 +1,19 @@
 @charset 'uft8';
 @import url('tartalom-spec.css') screen,handheld;
 
-body {
-  margin: 0;
-}
-
 h1 {
-  font-size: 1.5em;
-  padding: 1.5625rem 0 0 6.25rem;
+  font-size: 1.5em;  
   text-align: left;
   margin: 0 auto;
   white-space: nowrap;
+}
+
+h1 a {
+  background: #fff url('../img/logo.svg') no-repeat 1.875rem center;
+  background-size: 3.125rem;
+  padding: 1.5625rem 0 0 6.25rem;
+  width: 20rem;
+  margin: 1rem 0 0 0;
 }
 
 section {
@@ -20,7 +23,7 @@ section {
 #befoglalo > nav {
   width: 100%;
   background-color: #f00;
-  margin-top: 10rem;
+  top: 16.25rem;
   position: absolute;
   z-index: -1;
 }
@@ -54,7 +57,7 @@ nav li a {
   margin-top: 0;
 }
 
-.temadoboz ul li { 
+.temadoboz ul li {
   padding: 0;
 }
 
@@ -63,7 +66,7 @@ nav li a {
 }
 
 .temadoboz img {
-  max-width: 10.6875rem;
+  /*max-width: 10.6875rem;*/
   max-height: 9.5rem;
 }
 
@@ -78,12 +81,10 @@ nav li a {
     float: none;
 }
 
-#fejlec {
-  background: #fff url('../img/logo.svg') no-repeat 1.875rem center;
+#fejlec {  
   max-width: 43.125rem;
-  margin: 3.125rem auto 1.5625rem;
-  height: 3.125rem;
-  background-size: 3.125rem;
+  margin: 1rem auto 1.5625rem;
+  height: 3.125rem;  
 }
 
 #lablec {
@@ -93,15 +94,15 @@ nav li a {
 main {
   float: right;
   min-height: 22.0625rem;
-  max-width: 520.0625rem;
+  max-width: 32.5625rem;
   margin-left: 10.75rem;
   font-size: 1em;
 }
 
 table thead tr th,
-table tbody tr th {  
+table tbody tr th {
   font-weight: bold;
-  min-width: 9em;
+  /*min-width: 9em;*/
 }
 
 table tbody tr td {
@@ -110,7 +111,7 @@ table tbody tr td {
 }
 
 main img {
-  width: 10rem; 
+  width: 10rem;
 }
 
 main article time {
@@ -132,4 +133,24 @@ main article iframe {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: none;
+}
+
+#logo {
+  top: 3em;
+}
+
+#logo a {
+  margin: 0 0 0 1.7em;
+}
+
+table thead tr th {
+  width: auto;
+}
+
+#fejlec br {
+  display: none;
+}
+
+h1 span:first-child:after {
+  content: " - ";
 }

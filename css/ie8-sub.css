@@ -1,12 +1,8 @@
 @charset 'utf-8';
 
-body {
-  margin: 0;
-}
-
 a, a:link, a:visited, a:active {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #f00;
 }
 
 a:hover {
@@ -14,19 +10,32 @@ a:hover {
 }
 
 section > div > ul {
-  list-style-image: url('../img/list-l.jpg');  
+  list-style-image: url('../img/list-l.jpg');
 }
 
 section > div > ul li:hover{
-  list-style-image: url('../img/list-r.jpg');  
+  list-style-image: url('../img/list-r.jpg');
 }
 
 h1 {
   font-size: 1.5em;
-  padding: 25px 0 0 100px;
   text-align: left;
   margin: 0 auto;
   white-space: nowrap;
+}
+
+h1 a {
+  background: #fff url('../img/logo.jpg') no-repeat center 0.2em;
+  display: block;
+  /*border: 1px solid red;  */
+  padding: 25px 0 15px 100px;
+  background: #fff url('../img/logo-ie.jpg') no-repeat 30px center;  
+  width: 350px;  
+}
+
+h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
+  text-decoration: none;
+  color: #7f7f7f;
 }
 
 section {
@@ -38,7 +47,8 @@ nav {
   background-color: #f00;
   margin-top: 160px;
   position: absolute;
-  z-index: -1;  
+  z-index: -1;
+  border-top: 1px solid #fff;
 }
 
 nav > ul {
@@ -73,12 +83,13 @@ nav li a {
   margin-top: 0;
 }
 
-.temadoboz ul li { 
+.temadoboz ul li {
   padding: 0;
 }
 
-.temadoboz li a {
+.temadoboz ul li a {
   font-size: 0.825em;
+  color: #1a1a1a;
 }
 
 .temadoboz img {
@@ -101,10 +112,9 @@ nav li a {
 }
 
 #fejlec {
-  color: #7a7a7a;
-  background: #fff url('../img/logo-ie.jpg') no-repeat 30px center;
+  color: #7a7a7a;  
   max-width: 690px;
-  margin: 50px auto 25px;
+  margin: 25px auto 41px;
   height: 50px;
 }
 
@@ -124,11 +134,15 @@ main {
 }
 
 table thead tr th,
-table tbody tr th {  
+table tbody tr th {
   font-weight: bold;
   min-width: 9em;
   border-right: 1px solid #000;
 
+}
+
+table thead tr td img {
+  max-height: 5em;
 }
 
 table tbody tr td {
@@ -137,12 +151,14 @@ table tbody tr td {
 }
 
 main img {
-  width: 5em;   
+  width: 5em;
   margin: 0.2em;
 }
 
 main article iframe {
   min-height: 500px;
+  max-width: 475px;
+  margin: 0;
 }
 
 main article time {
@@ -188,14 +204,9 @@ main article time {
 
 }
 
-main article,
-  main article iframe {
+main article {
   margin: 10px 10px 10px 15px;
   padding: 10px;
-}
-
-main article iframe {
-  min-height: 100px;
 }
 
 #menu {
@@ -209,7 +220,13 @@ main article iframe {
   height: 25px;
 }
 
+#fejlec br {
+  display: none;
+}
 
+h1 span:first-child:after {
+  content: " - ";
+}
 
 /*main div {*/
   /*display: block;*/ /*!!! Ha később kellene a main-ben a div !!!*/

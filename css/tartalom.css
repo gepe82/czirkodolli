@@ -5,7 +5,7 @@ body {
   margin-top: 1.5625rem;
 }
 
-strong, b {
+strong, b, em {
   font-weight: bold;
 }
 
@@ -13,18 +13,33 @@ h1 {
   color: rgba(0, 0, 0, 0.5);
   min-height: 1em;
   text-align: center;
-  padding: 3.5em 0 0.5em;
+  /*padding: 2em 0 0.5em;*/
   margin: 0 auto;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2em;
+}
+
+h1 a {
+  background: #fff url('../img/logo.svg') no-repeat center 0.2em;
+  display: block;
+  /*border: 1px solid red;*/
+  /*width: 100%;*/
+  background-size: 3.125rem;
+  margin: 1rem auto 0;
+  padding: 2em 0 0.5em;  
+}
+
+h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 a, a:link, a:visited, a:active {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.9);
+  color: #f00;
 }
 
-a:hover {
+a:hover, a:focus {
   text-decoration: underline;
 }
 
@@ -35,12 +50,12 @@ section {
 
 section > div > ul {
   list-style-image: url('../img/list-l.svg');
-  transition-property: list-stlye-image;
+  /*transition-property: list-stlye-image;*/
 }
 
 section > div > ul li:hover {
   list-style-image: url('../img/list-r.svg');
-  transition-duration: 0.75s;
+  /*transition-duration: 0.75s;*/
 }
 
 nav {
@@ -77,8 +92,9 @@ nav > ul li {
 
 nav li a {
   display: block;
-  padding: 0.9em 0 0 31.25rem;
+  padding: 0.6em 0 0 3.25rem;
   color: #fff;
+  height: 2.8125rem;
 }
 
 nav li a:hover,
@@ -86,6 +102,7 @@ nav li a:hover,
   nav li a:active,
   nav li a:link {
   color: #fff;
+  text-decoration: none;
 }
 
 .temadoboz {
@@ -110,12 +127,6 @@ nav li a:hover,
 
 .temadoboz li a {
   color: rgba(0, 0, 0, 0.9);
-}
-
-.temadoboz li a:hover,
-  .temadoboz li a:active,
-  .temadoboz li a:focus {
-  text-decoration: underline;
 }
 
 .temadoboz img {
@@ -160,9 +171,7 @@ nav li a:hover,
 }
 
 #fejlec {
-  background: #fff url('../img/logo.svg') no-repeat center 0.2em;
   animation: beuszas 2s ease-in-out;
-  background-size: 3.125rem;
 }
 
 #lablec {
@@ -206,12 +215,13 @@ main p {
   padding-bottom: 0.5em;
 }
 
-main p table {
+main article table {
   text-align: left;
+  width: 100%;
 }
 
 table thead tr td img {
-  width: 5em;
+  max-width: 5em;
 }
 
 table thead tr td {
@@ -223,21 +233,22 @@ table thead tr th,
 table tbody tr th {
   text-align: right;
   border-right: 0.0625rem solid #000;
-  padding-right: 0.2em;
+  padding-right: 0.5em;
   font-weight: normal;
-  white-space: normal;
-  min-width: 1em;
+}
+
+table thead tr th {
+  width: 1em;
 }
 
 table tbody tr td {
   padding: 0 0 0.2em 0.2em;
-  white-space: normal;
   max-width: 5em;
 }
 
 .nagybetus_cella {
   text-transform: uppercase;
-  padding: 2em 0.5em;
+  padding: 2em 0.2em;
 }
 
 main img {
@@ -298,7 +309,7 @@ main article iframe,
 }
 
 main article iframe {
-  min-height: 6.25rem;
+  min-height: 12rem;/*6.25rem*/
   overflow: visible;
 }
 
@@ -337,8 +348,8 @@ main article div {
 }
 
 main article ul {
-  margin-left: 2em;
-  list-style-type: square;
+  margin: 0.5em 0 1em 2em;
+  list-style-type: disc;
   line-height: 1.75;
 }
 
@@ -383,3 +394,7 @@ main article ul {
   position: absolute;
   top: 0;
  }
+
+.js_show {
+  display: none;
+}
