@@ -52,3 +52,19 @@ nav li a {
   background-color: hsl(0, 0%, 0%);
   background-image: url('../img/kukac3-2.jpg');
 }
+
+#sor2 .temadoboz,
+  #sor2 .temadoboz img {
+  transition: border-top-left-radius 0.5s;
+}
+
+#sor2 .temadoboz {
+  box-shadow:  -0.25rem -0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);  
+}
+
+#sor2 .temadoboz:hover,
+  #sor2 .temadoboz:focus,
+  #sor2 .temadoboz img:hover {
+  border-top-left-radius: 3.125rem;
+  border-bottom-left-radius: 0.625rem;
+}

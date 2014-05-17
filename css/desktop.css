@@ -90,8 +90,24 @@ section {
   clear: none;
 }
 
+#sor2 .temadoboz,
+  #sor2 .temadoboz img {
+  transition: border-bottom-left-radius 0.5s;
+}
+
+#sor2 .temadoboz {
+  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);
+}
+
+#sor2 .temadoboz:hover,
+  #sor2 .temadoboz:focus,
+  #sor2 .temadoboz img:hover {
+  border-top-left-radius: 0.625rem;
+  border-bottom-left-radius: 3.125rem;
+}
+
 #sor2 .temadoboz:nth-child(3) {
-  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px 5px 8px 1px rgba(0, 0, 0, 0.3)*/
+  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {

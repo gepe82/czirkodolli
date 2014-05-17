@@ -4,7 +4,7 @@
 /*@import url('desktop.css') only screen and (min-width:801px);*/
 /*@import url('large.css') only screen and (min-width:1281px);*/
 
-@import url('mobil.css') screen and (min-width:321px);
-@import url('tablet.css') screen and (min-width:480px);
+@import url('mobil.css') only screen and (min-width:320px);
+@import url('tablet.css') only screen and (min-width:570px);/** Iphone 5 határ felett egy picivel (568)**/
 @import url('desktop.css') only screen and (min-width:690px);
 @import url('large.css') only screen and (min-width:1280px);

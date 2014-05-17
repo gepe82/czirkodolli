@@ -26,7 +26,6 @@ $(document).ready(function(){
             if ( szel > 560 ){
                 $('a[rel^="prettyPhoto"]').prettyPhoto();
             }
-
             /*$('#a_iroda, #a_irodahaz').click(function(e){
                 //e.stopPropagation();
                 $('#accordion').accordion({'active':'false'});

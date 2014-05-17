@@ -13,8 +13,8 @@ body {
 }
 
 
-a, a:link, a:visited, a:active { 
-  text-decoration: none;  
+a, a:link, a:visited, a:active {
+  text-decoration: none;
   color: #f00;
 }
 
@@ -24,7 +24,7 @@ a:hover, a:focus {
 
 nav {
   border-bottom: 0.0625rem solid #fff;
-  background-color: #fff;  
+  background-color: #fff;
 }
 
 nav > ul {
@@ -40,7 +40,7 @@ nav li {
   border-radius: 0.3125rem;
   color: #fff;
   transition-property: transform;
-  transform-style: preserve-3d;  
+  transform-style: preserve-3d;
 }
 
 nav li a {
@@ -49,10 +49,10 @@ nav li a {
   color: #fff;
 }
 
-nav li a:hover,
+nav li a:link,
   nav li a:visited,
-  nav li a:active,
-  nav li a:link {
+  nav li a:hover,
+  nav li a:active {
   color: #fff;
 }
 
@@ -145,9 +145,9 @@ section > div > ul li:hover{
   transition: border-bottom-left-radius 0.5s;
 }
 
-#sor2 .temadoboz{
+#sor2 .temadoboz {
   border-bottom: 0.0625rem solid #fff;
-  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px 5px 8px 1px rgba(0, 0, 0, 0.3)*/
+  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);
 }
 
 #sor2 .temadoboz:hover,
@@ -156,7 +156,7 @@ section > div > ul li:hover{
   border-bottom-left-radius: 3.125rem;
 }
 
-#fejlec{  
+#fejlec {
   animation: beuszas 2s ease-in-out;
 }
 
@@ -177,10 +177,10 @@ h1 a {
   /*border: 1px solid red;  */
   background-size: 3.125rem;
   margin: 1rem auto 0;
-  padding: 2em 0 0.5em;  
+  padding: 2em 0 0.5em;
 }
 
-h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
+h1 a, h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -240,7 +240,7 @@ h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
   0% { /*lehetne sec-ben is megadni*/
     opacity: 0;
   }
-  
+
   100%{
     left: 0%;
     opacity: 1;
