@@ -58,3 +58,13 @@ nav li a {
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
   background-size: 25px;
 }
+
+#kepek {
+  background-color: hsl(0, 0%, 0%);
+  background-image: url('../img/galeria3.jpg');
+}
+
+#kapcsolat {
+  background-color: hsl(0, 0%, 50%);
+  background-image: url('../img/kukac3.jpg');
+}

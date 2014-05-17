@@ -1,3 +1,6 @@
+@charset 'uft8';
+@import url('tartalom-spec.css') screen,handheld;
+
 body {
   margin: 0;
 }
@@ -14,10 +17,10 @@ section {
   max-width: 695px;
 }
 
-nav {
+#befoglalo > nav {
   width: 100%;
   background-color: #f00;
-  margin-top: 153px;
+  margin-top: 160px;
   position: absolute;
   z-index: -1;
 }
@@ -47,6 +50,10 @@ nav li a {
   /*border: 1px solid red;*/
 }
 
+.temadoboz li { 
+  padding: 0;
+}
+
 .temadoboz li a {
   font-size: 0.825em;
 }
@@ -72,6 +79,7 @@ nav li a {
   max-width: 690px;
   margin: 50px auto 25px;
   height: 50px;
+  background-size: 50px;
 }
 
 #lablec {
@@ -92,7 +100,7 @@ main article time {
 }
 
 main article iframe {
-  min-height: 500px;
+  /*min-height: 500px;*/
 }
 
 #menu {

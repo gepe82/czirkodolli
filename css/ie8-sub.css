@@ -24,7 +24,7 @@ section {
 nav {
   width: 100%;
   background-color: #f00;
-  margin-top: 153px;
+  margin-top: 160px;
   position: absolute;
   z-index: -1;
 }
@@ -51,6 +51,10 @@ nav li a {
   height: 152px;
 }
 
+.temadoboz li { 
+  padding: 0;
+}
+
 .temadoboz li a {
   font-size: 0.825em;
 }
@@ -74,7 +78,7 @@ nav li a {
 
 #fejlec {
   color: #7a7a7a;
-  background: #fff url('../img/logo.jpg') no-repeat 30px center;
+  background: #fff url('../img/logo-ie.jpg') no-repeat 30px center;
   max-width: 690px;
   margin: 50px auto 25px;
   height: 50px;
@@ -91,7 +95,7 @@ main {
   max-width: 521px;
   margin-left: 172px;
   font-size: 0.8em;
-  background-color: #67A0BB;
+  background-color: #939FA6;
 }
 
 main article iframe {

@@ -9,14 +9,6 @@ strong{
   font-weight: bold;
 }
 
- #befoglalo {
-  width: 100%;
-  margin-top: 0;
-  box-sizing: border-box;
-  z-index: -10;
-  overflow: hidden;
-}
-
 h1 {
   color: rgba(0, 0, 0, 0.5);
   min-height: 1em;
@@ -39,13 +31,11 @@ section {
 
 section > div > ul {
   list-style-image: url('../img/list-l.jpg');
-  transition-property: list-stlye-image;
-  -webkit-transition-property: list-style-image;
+  transition-property: list-stlye-image;  
 }
 
 section > div > ul li:hover {
   list-style-image: url('../img/list-r.jpg');
-  -webkit-transition-duration: 0.75s;
   transition-duration: 0.75s;
 }
 
@@ -79,13 +69,6 @@ nav > ul li {
   width: 100%;
   transition-property: transform;
   transform-style: preserve-3d;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-}
-
-nav li {
-  font-size: 1.125em;
 }
 
 nav li a {
@@ -115,10 +98,11 @@ nav li a:hover,
 
 .temadoboz li {
   margin-bottom: 0.3em;
+  padding: 0.5em 0 0.5em 1em;
 }
 
 .temadoboz li a {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.9);  
 }
 
 .temadoboz li a:hover,
@@ -150,19 +134,16 @@ nav li a:hover,
 #d1,
   #d1 img {
   transition: border-top-left-radius 0.5s;
-  -webkit-transition: border-top-left-radius 0.5s;
 }
 
 #d1:hover,
   #d1:focus,
   #d1 img:hover {
   border-top-left-radius: 50px;
-  /*-webkit-filter: opacity(0.95);*/
 }
 
 #d2{
   transition: border-bottom-left-radius 0.5s;
-  -webkit-transition: border-bottom-left-radius 0.5s;
 }
 
 #d2:hover,
@@ -174,7 +155,6 @@ nav li a:hover,
 #fejlec {
   background: #fff url('../img/logo.jpg') no-repeat center 0.2em;
   animation: beuszas 2s ease-in-out;
-  -webkit-animation: beuszas 2s ease-in-out;
 }
 
 #lablec {
@@ -238,7 +218,7 @@ main article,
   margin: 10px 10px 10px 15px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);  
 }
 
 main article iframe,
@@ -251,7 +231,7 @@ main article iframe,
 }
 
 main article iframe {
-  min-height: 100px;
+  min-height: 500px;
   overflow: visible;
 }
 
@@ -308,7 +288,6 @@ main article figure img {
   text-shadow: 0 0 5px #fff;
   height: 25px;
   transition: text-shadow 0.2s;
-  -webkit-transition: text-shadow 0.2s;
 }
 
 #menu a:link,

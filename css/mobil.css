@@ -41,3 +41,13 @@ nav li a {
   font-size: 0.825em;
   padding-top: 1.1em;
 }
+
+#kepek {
+  background-color: hsl(0, 0%, 50%);
+  background-image: url('../img/galeria3-2.jpg');
+}
+
+#kapcsolat {
+  background-color: hsl(0, 0%, 0%);
+  background-image: url('../img/kukac3-2.jpg');
+}

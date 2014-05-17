@@ -1,0 +1,63 @@
+@charset 'utf-8';
+
+nav li {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+}
+
+nav > ul li:hover {
+  -webkit-transform: rotateX(360deg);
+  -webkit-transition-duration: 1s;
+  -ms-transform: rotateX(360deg);
+}
+
+section > div > ul {
+  -webkit-transition-property: list-style-image;
+}
+
+section > div > ul li:hover{
+  -webkit-transition-duration: 0.75s;
+}
+
+#sor1 .temadoboz,
+  #sor1 .temadoboz img {
+  -webkit-transition: border-top-left-radius 0.5s;
+}
+
+#sor1 .temadoboz:hover,
+  #sor1 .temadoboz:focus,
+  #sor1 .temadoboz img:hover {
+  /*-webkit-filter: opacity(0.95);*/
+}
+
+#sor2 .temadoboz,
+  #sor2 .temadoboz img {
+  -webkit-transition: border-bottom-left-radius 0.5s;
+}
+
+#sor2 .temadoboz:hover,
+  #sor2 .temadoboz:focus,
+  #sor2 .temadoboz img:hover { 
+  /*-webkit-filter: opacity(0.95);*/
+}
+
+#fejlec{
+  -webkit-animation: beuszas 2s ease-in-out;
+}
+
+#menu a {
+    -webkit-transition: text-shadow 0.2s;
+}
+
+@-webkit-keyframes beuszas{
+
+	0% { /*lehetne sec-ben is megadni*/
+        opacity: 0;
+	}
+
+	100%{
+		left: 0%;
+		opacity: 1;
+	}
+}
