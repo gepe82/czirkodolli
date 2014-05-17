@@ -10,7 +10,9 @@
     <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <link rel="stylesheet" href="css/ie8-sub.css" type="text/css" />
-    <![endif]-->    
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.map.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
 </head>
 <body>
     <div id="befoglalo">
@@ -27,40 +29,46 @@
         <section id="sor1">
 	    <div class="temadoboz" id="d2">
                 <ul>
-                    <li><a href="#">Telefonszám</a></li>
-                    <li><a href="#">E-mail</a></li>
-                    <li><a href="#">Térkép</a></li>
+                    <li><a href="#tel">Telefonszám</a></li>
+                    <li><a href="#ecim">E-mail</a></li>
+                    <li><a href="#terkep">Térkép</a></li>
                 </ul>
             </div>
             <main>
-                <article>
-                    <h2>E-mail címem:</h2>
+		<article id="tel">
+                    <h2>Telefonszámom:</h2>
                     <p>
-			<a href="mailto:czirko.dolli@gmail.com">czirko.dolli@gmail.com</a>
+			<a href="tel:+36304333169">+36 30 433 3169</a>
+		    </p>
+                </article>
+                <article>
+                    <h2 id="ecim">E-mail címem:</h2>
+                    <p>
+			<a id="email" href="#" title="Az e-mail cím mutattásához kattintson ide">E-mail cím mutatása</a>
 		    </p>
                 </article>
 		<article>
                     <h2>Parkolás:</h2>
-                    <p>Parkolásra az épület közelében lévő utcákon lehetséges, amely x Ft/óra reggel 8.00-tól délután 18.00-ig. <strong>A Röppentyű utcától</strong>, amely körülbelül egy perc séta, <strong>a parkolás ingyenes</strong>.</a>
+                    <p>Parkolásra az épület közelében lévő utcákon lehetséges, amely x Ft/óra reggel 8.00-tól délután 18.00-ig. <strong>A Röppentyű utca után</strong>, amely körülbelül egy perc séta, <strong>a parkolás ingyenes</strong>.
                   </p>
                 </article>
 		<article>
-		    <figure>
-			<img src="https://cbks0.google.com/cbk?output=thumbnail&cb_client=maps_sv&thumb=2&thumbfov=114&ll=47.538704,19.075093&yaw=211.7&thumbpegman=1&w=300&h=118" alt="Utcakép" title="Utcakép a bejáratról" />
+		    <figure id="terkep">
+			<img src="//cbks0.google.com/cbk?output=thumbnail&cb_client=maps_sv&thumb=2&thumbfov=114&ll=47.538704,19.075093&yaw=211.7&thumbpegman=1&w=300&h=118" alt="Utcakép" title="Utcakép a bejáratról" />
 			<figcaption>Bejárat az utca felől</figcaption>
 		    </figure>
 		</article>
 		<article>
-		    <iframe src="https://maps.google.hu/maps?f=q&amp;source=s_q&amp;hl=hu&amp;geocode=&amp;q=Budapest,+Forg%C3%A1ch+utca+19&amp;aq=0&amp;oq=Budapest,+Forg%C3%A1ch+utca+19&amp;sll=47.538572,19.075441&amp;sspn=0.011676,0.021415&amp;ie=UTF8&amp;hq=&amp;hnear=1139+Budapest,+XIII.+ker%C3%BClet,+Forg%C3%A1ch+utca+19&amp;ll=47.538572,19.075441&amp;spn=0.011676,0.021415&amp;t=m&amp;z=15&amp;output=embed"></iframe>
+		    <iframe src="//maps.google.hu/maps?f=q&amp;source=s_q&amp;hl=hu&amp;geocode=&amp;q=Budapest,+Forg%C3%A1ch+utca+19&amp;aq=0&amp;oq=Budapest,+Forg%C3%A1ch+utca+19&amp;sll=47.538572,19.075441&amp;sspn=0.011676,0.021415&amp;ie=UTF8&amp;hq=&amp;hnear=1139+Budapest,+XIII.+ker%C3%BClet,+Forg%C3%A1ch+utca+19&amp;ll=47.538572,19.075441&amp;spn=0.011676,0.021415&amp;t=m&amp;z=15&amp;output=embed"></iframe>
 		    <figcaption>
-			<a href="https://maps.google.hu/maps?f=q&amp;source=embed&amp;hl=hu&amp;geocode=&amp;q=Budapest,+Forg%C3%A1ch+utca+19&amp;aq=0&amp;oq=Budapest,+Forg%C3%A1ch+utca+19&amp;sll=47.538572,19.075441&amp;sspn=0.011676,0.021415&amp;ie=UTF8&amp;hq=&amp;hnear=1139+Budapest,+XIII.+ker%C3%BClet,+Forg%C3%A1ch+utca+19&amp;ll=47.538572,19.075441&amp;spn=0.011676,0.021415&amp;t=m&amp;z=17" />Nagyobb térképre váltás</a>
+			<a href="//maps.google.hu/maps?f=q&amp;source=embed&amp;hl=hu&amp;geocode=&amp;q=Budapest,+Forg%C3%A1ch+utca+19&amp;aq=0&amp;oq=Budapest,+Forg%C3%A1ch+utca+19&amp;sll=47.538572,19.075441&amp;sspn=0.011676,0.021415&amp;ie=UTF8&amp;hq=&amp;hnear=1139+Budapest,+XIII.+ker%C3%BClet,+Forg%C3%A1ch+utca+19&amp;ll=47.538572,19.075441&amp;spn=0.011676,0.021415&amp;t=m&amp;z=17">Nagyobb térképre váltás</a>
 		    </figcaption>
 		</article>
                 <div><a href="#lapteto">ugrás a lap tetejére</a></div>
             </main>
             <div class="temadoboz" id="d1"><img src="img/underground5.jpg" alt="Elérhetőség menüképe" /></div>            
         </section>        
-        <footer id="lablec">HTML5 | CSS3 | Ajánlott böngészők</footer>
+        <footer id="lablec"></footer>
     </div>
 </body>
 </html>

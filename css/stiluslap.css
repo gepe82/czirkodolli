@@ -174,7 +174,12 @@ h1 {
   font-size: 0.75em;
   color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
-  padding: 1.5em 3em 0 0;
+  padding: 1.5em 3em 1.5em 0;
+}
+
+.icons {
+  width: 1.2em;
+  height: 1.2em; /* Safari 5 miatt nem lehet auto, mert az svg-ket elnyújtja */
 }
 
 #menu {
@@ -212,14 +217,14 @@ h1 {
     text-shadow: 0 0 1px #fff;
  }
 
-@keyframes beuszas{
+@keyframes beuszas {
 
-	0% { /*lehetne sec-ben is megadni*/
-        opacity: 0;
-	}
-
-	100%{
-		left: 0%;
-		opacity: 1;
-	}
+  0% { /*lehetne sec-ben is megadni*/
+    opacity: 0;
+  }
+  
+  100%{
+    left: 0%;
+    opacity: 1;
+  }
 }

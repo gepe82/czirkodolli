@@ -155,6 +155,7 @@ nav li a:hover,
 #fejlec {
   background: #fff url('../img/logo.jpg') no-repeat center 0.2em;
   animation: beuszas 2s ease-in-out;
+  background-size: 50px;
 }
 
 #lablec {
