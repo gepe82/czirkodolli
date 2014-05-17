@@ -1,59 +1,58 @@
 /*h1:before{*/
-/*    content: "TABLET ver. ";*/
+/*  content: "TABLET ver. ";*/
 /*}*/
 
 h1{
-    font-size: 1.1em;    
+  font-size: 1.1em;  
 }
 
 .temadoboz {
-    float: left;
-    width: 33.1%;
-    max-width: 267px;
-    min-height: 136px;
-    font-size: 0.8em;
+  float: left;
+  width: 33.1%;
+  max-width: 267px;
+  min-height: 136px;
+  font-size: 0.8em;
 }
 
 .temadoboz:nth-child(odd) {
-    clear: none;
-    /*border: 1px solid red;*/
+  clear: none;
+  /*border: 1px solid red;*/
 }
 
 #sor1 .temadoboz {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 
 #d4 {
-    clear: left;    
+  clear: left;  
 }
 
 .temadoboz ul {
-    font-size: 1.1em;
-    padding: 1em 0.5em 1em 1.5em;
+  font-size: 1.1em;
+  padding: 1em 0.5em 1em 1.5em;
 }
 
 nav {
-    float: left;
-    clear: none;
-    width: 33.2%;
-    border-radius: 5px;
-    max-width: 267px;
-    min-height: 132px;
-    overflow: hidden;
+  float: left;
+  clear: none;
+  width: 33.2%;
+  border-radius: 5px;
+  max-width: 267px;
+  min-height: 132px;
+  overflow: hidden;
 }
 
 nav li {
-    /*float: left;*/
-    clear: both;
-    width: 100%;
-    min-height: 33px;
+  clear: both;
+  width: 100%;
+  min-height: 33px;
 }
 
 nav li a{
-    padding: 0.6em 0.5em 0.5em 40px;
+  padding: 0.6em 0.5em 0.5em 40px;
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
-    background-size: 25px;
+  background-size: 25px;
 }
