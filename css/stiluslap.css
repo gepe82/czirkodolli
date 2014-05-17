@@ -88,7 +88,7 @@ section > div > ul li:hover{
   transition-duration: 0.75s;
 }
 
-.temadoboz{
+.temadoboz {
   border-left: 1px solid #fff;
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.7);
@@ -99,8 +99,8 @@ section > div > ul li:hover{
   font-size: 1.2em;
 }
 
-.temadoboz li {
-  margin-bottom: 0.3em;
+.temadoboz ul li {
+  margin-bottom: 1.5em;
 }
 
 .temadoboz li a:hover,

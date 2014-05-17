@@ -50,7 +50,11 @@ nav li a {
   /*border: 1px solid red;*/
 }
 
-.temadoboz li { 
+.temadoboz ul {
+  margin-top: 0;
+}
+
+.temadoboz ul li { 
   padding: 0;
 }
 
@@ -91,11 +95,22 @@ main {
   min-height: 353px;
   max-width: 521px;
   margin-left: 172px;
-  font-size: 0.8em;
+  font-size: 1em;
+}
+
+table thead tr th,
+table tbody tr th {  
+  font-weight: bold;
+  min-width: 9em;
+}
+
+table tbody tr td {
+  padding: 0 0 0.2em 0.5em;
+  max-width: none;
 }
 
 main img {
-  width: 5rem; 
+  width: 10rem; 
 }
 
 main article time {
@@ -104,7 +119,7 @@ main article time {
 }
 
 main article iframe {
-  /*min-height: 500px;*/
+  min-height: 500px;
 }
 
 #menu {
@@ -117,8 +132,4 @@ main article iframe {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: none;
-}
-
-#ugras {
-  display: none;
 }

@@ -4,9 +4,13 @@ body {
   margin: 0;
 }
 
-a, a:link, a:hover, a:visited, a:active {
+a, a:link, a:visited, a:active {
   text-decoration: none;
   color: #1a1a1a;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -51,7 +55,11 @@ nav li a {
   height: 152px;
 }
 
-.temadoboz li { 
+.temadoboz ul {
+  margin-top: 0;
+}
+
+.temadoboz ul li { 
   padding: 0;
 }
 
@@ -94,8 +102,24 @@ main {
   min-height: 353px;
   max-width: 521px;
   margin-left: 172px;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: #939FA6;
+}
+
+table thead tr th,
+table tbody tr th {  
+  font-weight: bold;
+  min-width: 9em;
+}
+
+table tbody tr td {
+  padding: 0 0 0.2em 0.5em;
+  max-width: none;
+}
+
+main img {
+  width: 5em;   
+  margin: 0.2em;
 }
 
 main article iframe {
@@ -119,9 +143,9 @@ main article time {
   border-bottom: none;
 }
 
-main div:last-child {
+/*main div:last-child {
   display: none;
-}
+}*/
 
 #magamrol {
   background: #000 url('../img/haz3.jpg') no-repeat 10px center;
@@ -139,6 +163,6 @@ main div:last-child {
   background: #7f7f7f url('../img/kukac3.jpg') no-repeat 10px center;
 }
 
-main div {
-  display: none; /*!!! Ha később kellne a main-ben a div !!!*/
-}
+/*main div {*/
+  /*display: block;*/ /*!!! Ha később kellene a main-ben a div !!!*/
+/*}*/

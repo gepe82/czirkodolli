@@ -5,7 +5,7 @@ body {
   margin-top: 25px;
 }
 
-strong{
+strong, b {
   font-weight: bold;
 }
 
@@ -19,9 +19,13 @@ h1 {
   font-size: 1.2em;
 }
 
-a, a:link, a:hover, a:visited, a:active {
+a, a:link, a:visited, a:active {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -31,7 +35,7 @@ section {
 
 section > div > ul {
   list-style-image: url('../img/list-l.jpg');
-  transition-property: list-stlye-image;  
+  transition-property: list-stlye-image;
 }
 
 section > div > ul li:hover {
@@ -93,16 +97,19 @@ nav li a:hover,
 .temadoboz ul {
   line-height: 120%;
   font-size: 1.1em;
+  margin-top: 1em;
   padding: 1em 0.5em 1em 1.5em;
 }
 
-.temadoboz li {
-  margin-bottom: 0.3em;
-  padding: 0.5em 0 0.5em 1em;
+.temadoboz ul li {
+  /*margin-bottom: 0.3em;*/
+  /*padding: 0.5em 0 0.5em 1em;*/
+  margin: 0 0.5em 1.5em 0em;
+  font-size: 1em;
 }
 
 .temadoboz li a {
-  color: rgba(0, 0, 0, 0.9);  
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .temadoboz li a:hover,
@@ -195,10 +202,47 @@ main {
 main p {
   clear: both;
   text-indent: 2em;
+  text-align: left;
+  line-height: 1.75;
+  padding-bottom: 0.5em;
+}
+
+main p table {
+  text-align: left;
+}
+
+table thead tr td img {
+  width: 5em;
+}
+
+table thead tr td {
+  text-align: right;
+  vertical-align: middle;
+}
+
+table thead tr th,
+table tbody tr th {
+  text-align: right;
+  border-right: 1px solid #000;
+  padding-right: 0.2em;
+  font-weight: normal;
+  white-space: normal;
+  min-width: 1em;
+}
+
+table tbody tr td {
+  padding: 0 0 0.2em 0.2em;
+  white-space: normal;
+  max-width: 5em;
+}
+
+.nagybetus_cella {
+  text-transform: uppercase;
+  padding: 2em 0.5em;
 }
 
 main img {
-  border-radius: 5px;  
+  border-radius: 5px;
   width: 10rem;
   height: auto;
   margin: 0.2rem;
@@ -206,6 +250,11 @@ main img {
 
 #accordion > div {
   text-align: center;
+}
+
+#accordion > p {
+  text-align: left;
+  line-height: 1.75;
 }
 
 #ugras {
@@ -230,7 +279,11 @@ main article,
   margin: 10px 10px 10px 15px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);  
+  box-shadow: -1px -1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+main article figcaption a:hover {
+  text-decoration: underline;
 }
 
 main article iframe,
@@ -243,7 +296,7 @@ main article iframe,
 }
 
 main article iframe {
-  min-height: 500px;
+  min-height: 100px;
   overflow: visible;
 }
 
@@ -264,8 +317,8 @@ main article time {
   float: right;
   clear: both;
   margin-bottom: 0.5em;
-  font-style: italic;
-  font-size: 0.75em;
+  /*font-style: italic;  */
+  font: italic 0.75em "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 main article figure {
@@ -275,6 +328,16 @@ main article figure {
 
 main article figure img {
   border-radius: 5px;
+}
+
+main article div {
+  clear: both;
+}
+
+main article ul {
+  margin-left: 2em;
+  list-style-type: square;
+  line-height: 1.75;
 }
 
 #menu {

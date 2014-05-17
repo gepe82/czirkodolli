@@ -1,59 +1,54 @@
 {
     "magamrol": {
-        "id": "magam",
-        "galleryName": "magamrol",
-        "title": "Magamról",
+        "id": "iroda",
+        "galleryName": "iroda",
+        "title": "Az iroda és én",
         "pictures": [
             {
-                "src": "img_3272.jpg",
-                "alt": "img_3272.jpg"
+                "src": "img_3270.jpg",
+                "alt": "Az ajtóból"
                 
             },
             {
-                "src": "img_3273.jpg",
-                "alt": "img_3273.jpg"
+                "src": "img_3278.jpg",
+                "alt": "Kis képek"
+                
+            },            
+            {
+                "src": "img_2683.jpg",
+                "alt": "Polcok és fogas"
                 
             },
             {
-                "src": "img_3275.jpg",
-                "alt": "img_3275.jpg"
+                "src": "img_2738.jpg",
+                "alt": "Ez én vagyok :)"
                 
             },
             {
-                "src": "img_3279.jpg",
-                "alt": "img_3279.jpg"
+                "src": "img_3267.jpg",
+                "alt": "Teásasztal és kis képek"
                 
             }
         ]
     },
     "irodarol": {
-        "id": "iroda",
-        "galleryName": "irodarol",
-        "title": "Az irodáról",
+        "id": "irodahaz",
+        "galleryName": "irodahaz",
+        "title": "Az irodaházról",
         "pictures": [
             {
-                "src": "img_3266.jpg",
-                "alt": "img_3266.jpg"
+                "src": "goldiroda_utcakep.jpg",
+                "alt": "Utcakép az irodaházról"
                 
             },
             {
-                "src": "img_3267.jpg",
-                "alt": "img_3267.jpg"
+                "src": "belso_udvar.jpg",
+                "alt": "Az irodaház belső udvara"
                 
             },
             {
-                "src": "img_3268.jpg",
-                "alt": "img_3268.jpg"
-                
-            },
-            {
-                "src": "img_3270.jpg",
-                "alt": "img_3270.jpg"
-                
-            },
-            {
-                "src": "img_3277.jpg",
-                "alt": "img_3277.jpg"
+                "src": "recepcio.jpg",
+                "alt": "Recepció.jpg"
                 
             }
         ]

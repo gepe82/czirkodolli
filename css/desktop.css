@@ -91,12 +91,6 @@ section {
   box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
-#menu{
-  display: none;
-  left: -10000px;
-  position: absolute;
-}
-
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
   background-size: 36px;
 }

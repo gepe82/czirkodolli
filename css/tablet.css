@@ -30,8 +30,9 @@ h1 {
   font-size: 1.1em;
 }
 
-.temadoboz li{
-  padding: 0 0.5em 0.2em;
+.temadoboz ul li{  
+  margin: 0 0.5em 1.5em 0em;
+  font-size: 1em;
 }
 
 nav {
@@ -67,4 +68,10 @@ nav li a {
 #kapcsolat {
   background-color: hsl(0, 0%, 50%);
   background-image: url('../img/kukac3.jpg');
+}
+
+#menu {
+  display: none;
+  left: -10000px;
+  position: absolute;
 }

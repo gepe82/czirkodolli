@@ -23,8 +23,9 @@
   margin: 1.4em 0.5em 1em 2em;
 }
 
-.temadoboz li {
-  padding: 0 0.5em 0.9em 0em;
+.temadoboz ul li {
+  margin: 0 0.5em 1.5em 0em;
+  font-size: 1.2em;
 }
 
 nav {

@@ -86,8 +86,7 @@ section {
 }
 
 .temadoboz li {
-  margin-bottom: 0;
-  padding: 0 0.5em 0.2em;
+  margin-bottom: 1.5em;
 }
 
 .temadoboz li a {
@@ -104,6 +103,10 @@ section {
 #lablec {
   width: 690px;
   color: #7f7f7f;
+}
+
+#lablec img {
+  display: none;
 }
 
 #d4 {

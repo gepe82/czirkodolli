@@ -7,7 +7,7 @@ $(document).ready(function(){
                     $('#accordion').append( $('<h3>', {'innerHTML':galeria.title, 'id': galeria.id } ), $('<div>').append( function(){
                         var html = [];
                         $.each(galeria.pictures, function(j, kep){
-                            html += '<a href="' + pictDir + '/' + kep.src + '" rel="prettyPhoto[' + galeria.galleryName + ']"><img src="' + pictDir + '/thumb/' + kep.src + '" alt="' + pictDir + '/' + kep.alt + '" /></a>';
+                            html += '<a href="' + pictDir + '/' + kep.src + '" rel="prettyPhoto[' + galeria.galleryName + ']"><img src="' + pictDir + '/thumb/' + kep.src + '" alt="' + kep.alt + '" title="' + kep.alt + '" /></a>';
                         });
                         return html;
                         } ) );
