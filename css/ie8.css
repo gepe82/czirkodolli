@@ -1,0 +1,117 @@
+@charset 'utf-8';
+
+h1 {
+  font-size: 1.5em;
+  padding: 25px 0 15px 100px;
+  text-align: left;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #7f7f7f;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+nav {
+  overflow: hidden;
+  width: 100%;
+  clear: both;
+  background-color: #FFCD05;
+  height: 45px;
+  border-top: 1px solid #fff;
+  margin: 0 auto;
+  max-width: none;
+  min-height: 0;
+}
+
+nav > ul {
+  margin: 0 auto;
+  width: 695px;
+  height: 45px;
+  background-color: #ffcd05;
+}
+
+nav > ul li {
+  float: left;
+  width: 171px;
+  height: 45px;
+  clear: none;
+}
+
+nav li a {
+  padding: 0.9em 0 0 50px;
+  height: 45px;
+  font-size: 0.825em;
+}
+
+#magamrol {
+  background: #67A0BB url('../img/ab2.jpg') no-repeat 10px center;
+}
+
+#szolgaltatasok {
+  background: #795B39 url('../img/2-serv2.jpg') no-repeat 10px center;
+}
+
+#kepek {
+  background: #E65A09 url('../img/3-prod2.jpg') no-repeat 10px center;
+}
+
+#kapcsolat {
+background: #98CA01 url('../img/4-cont2.jpg') no-repeat 10px center;
+}
+
+section {
+  width: 695px;
+  clear: left;
+}
+
+.temadoboz {
+  float: left;
+  width: 171px;
+  height: 152px;
+}
+
+.temadoboz img {
+  width: 100%;
+  height: auto;
+  max-width: 171px;
+  max-height: 152px;
+}
+
+.temadoboz ul {
+  font-size: 1em;
+  margin: 0.5 0.2 0.2 0.5em;
+}
+
+.temadoboz li {
+  margin-bottom: 0;
+  padding: 0 0.5em 0.2em;
+}
+
+.temadoboz li a {
+  font-size: 0.875em;
+}
+
+#fejlec {
+  background: #fff url('../img/logo.jpg') no-repeat 30px center;
+  width: 690px;
+  margin: 50px auto 25px;
+  height: 50px;
+}
+
+#lablec {
+  width: 690px;
+  color: #7f7f7f;
+}
+
+#d4 {
+  clear: none;
+}
+
+#menu {
+  display: none;
+  left: -10000px;
+  position: absolute;
+}

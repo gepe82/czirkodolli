@@ -1,8 +1,4 @@
-/*h1:before{*/
-/*  content: "TABLET ver. ";*/
-/*}*/
-
-h1{
+h1 {
   font-size: 1.1em;
 }
 
@@ -16,13 +12,15 @@ h1{
 
 .temadoboz:nth-child(odd) {
   clear: none;
-  /*border: 1px solid red;*/
 }
 
 #sor1 .temadoboz {
   border-radius: 10px;
 }
 
+#sor2 .temadoboz:nth-child(3) {
+  box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.3);
+}
 
 #d4 {
   clear: left;
@@ -30,7 +28,10 @@ h1{
 
 .temadoboz ul {
   font-size: 1.1em;
-  padding: 1em 0.5em 1em 1.5em;
+}
+
+.temadoboz li{
+  padding: 0 0.5em 0.2em;
 }
 
 nav {
@@ -49,9 +50,9 @@ nav li {
   min-height: 33px;
 }
 
-nav li a{
-  padding: 7px 0.5em 0 40px;    
-  min-height: 26px;  
+nav li a {
+  padding: 7px 0.5em 0 40px;
+  min-height: 26px;
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {

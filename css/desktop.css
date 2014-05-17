@@ -3,7 +3,7 @@ h1 {
   padding: 25px 0 15px 100px;
   text-align: left;
   font-weight: bold;
-  white-space: nowrap;  
+  white-space: nowrap;
 }
 
 nav {
@@ -29,30 +29,30 @@ nav > ul {
 nav > ul li {
   float: left;
   width: 171px;
-  height: 45px;
-  font-size: 1.4em;
+  height: 45px;  
   clear: none;
 }
 
 nav li a {
-  padding: 0.6em 0 0 50px;
+  padding: 0.9em 0 0 50px;
   height: 45px;
+  font-size: 0.825em;
 }
 
 #magamrol {
-background: hsl(199, 38%, 57%) url('img/ab2.jpg') no-repeat 10px center;
+  background: hsl(199, 38%, 57%) url('../img/ab2.jpg') no-repeat 10px center;
 }
 
 #szolgaltatasok {
-  background: hsl(32, 36%, 35%) url('img/2-serv2.jpg') no-repeat 10px center;
+  background: hsl(32, 36%, 35%) url('../img/2-serv2.jpg') no-repeat 10px center;
 }
 
 #kepek {
-background: hsl(22, 92%, 47%) url('img/3-prod2.jpg') no-repeat 10px center;
+  background: hsl(22, 92%, 47%) url('../img/3-prod2.jpg') no-repeat 10px center;
 }
 
 #kapcsolat {
-background: hsl(75, 99%, 40%) url('img/4-cont2.jpg') no-repeat 10px center;
+  background: hsl(75, 99%, 40%) url('../img/4-cont2.jpg') no-repeat 10px center;
 }
 
 section {
@@ -66,11 +66,6 @@ section {
   height: 152px;
 }
 
-.temadoboz li a {
-  padding-top: 0;
-  font-size: 0.875em;
-}
-
 .temadoboz img {
   width: 100%;
   height: auto;
@@ -80,12 +75,19 @@ section {
 
 .temadoboz ul{
   font-size: 1.25em;
-  margin: 0.5em;
+  margin: 0.5 0.2 0.2 0.5em;
 }
 
+.temadoboz li {
+  margin-bottom: 0;
+}
+
+.temadoboz li a {
+  font-size: 0.875em;  
+}
 
 #fejlec {
-  background: #fff url('img/logo.jpg') no-repeat 30px center;
+  background: #fff url('../img/logo.jpg') no-repeat 30px center;
   width: 690px;
   margin: 50px auto 25px;
   height: 50px;
@@ -93,9 +95,18 @@ section {
 
 #lablec {
   width: 690px;
-  padding: 1.5em 3em 0 0;
 }
 
 #d4 {
   clear: none;
+}
+
+#sor2 .temadoboz:nth-child(3) {
+  box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#menu{
+  display: none;
+  left: -10000px;
+  position: absolute;
 }

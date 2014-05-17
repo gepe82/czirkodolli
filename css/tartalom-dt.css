@@ -1,40 +1,43 @@
 body {
   margin: 0;
 }
-h1 {  
+
+h1 {
   font-size: 1.5em;
   padding: 25px 0 0 100px;
-  text-align: left;  
+  text-align: left;
   margin: 0 auto;
   white-space: nowrap;
 }
 
 section {
-  /*width: 695px;  */
   max-width: 695px;
 }
 
 nav {
   width: 100%;
-  background-color: hsla(48, 100%, 51%, 0.8);  
+  background-color: hsla(48, 100%, 51%, 0.8);
   margin-top: 153px;
   position: absolute;
   z-index: -1;
 }
 
-nav > ul {  
-  /*width: 690px;*/
+nav > ul {
   max-width: 690px;
   border-right: 5px solid hsla(48, 100%, 51%, 0.8);
-  background-right-color: #fff;  
+  background-right-color: #fff;
 }
 
 nav > ul li {
-  width: 171px;  
+  width: 171px;
 }
 
+nav li a {
+  font-size: 0.825em;
+  padding: 0.9em 0 0 50px;
+}
 
-.temadoboz{
+.temadoboz {
   float: left;
   width: 171px;
   height: 152px;
@@ -44,17 +47,15 @@ nav > ul li {
   font-size: 0.825em;
 }
 
-
-.temadoboz img{  
+.temadoboz img {
   max-width: 171px;
-  max-height: 152px;  
+  max-height: 152px;
 }
 
 #d1 {
   position: absolute;
-  float: none;  
+  float: none;
 }
-
 
 #d2 {
     margin-top: 200px;
@@ -62,24 +63,22 @@ nav > ul li {
     float: none;
 }
 
-#fejlec{
-  background: #fff url('img/logo.jpg') no-repeat 30px center;
+#fejlec {
+  background: #fff url('../img/logo.jpg') no-repeat 30px center;
   max-width: 690px;
   margin: 50px auto 25px;
   height: 50px;
 }
 
-#lablec{
-  max-width: 690px;  
+#lablec {
+  max-width: 690px;
 }
 
 main {
-  float: right;  
-  /*width: 521px;*/
+  float: right;
   min-height: 353px;
   max-width: 521px;
   margin-left: 172px;
-  /*font-size: 0.875em;*/
   font-size: 0.8em;
 }
 
@@ -93,10 +92,13 @@ main article time {
   margin-right: 15px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.3);    
+  box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.3);
   position: relative;
-  
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom: none;   
+  border-bottom: none;
+}
+
+main div:last-child {
+  display: none;
 }
