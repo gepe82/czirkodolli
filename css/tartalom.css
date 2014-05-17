@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('reset.css');
 
 body {
@@ -280,7 +280,7 @@ main img {
   color: #fff;
   background-color: #939fa6;
   border-radius: inherit;
-  height: none;
+  height: auto;
   padding: 0.2em 0;
   text-align: center;
   white-space: nowrap;
