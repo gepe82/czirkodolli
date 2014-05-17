@@ -7,47 +7,47 @@ body {
 
 h1 {
   font-size: 1.5em;
-  padding: 25px 0 0 100px;
+  padding: 1.5625rem 0 0 6.25rem;
   text-align: left;
   margin: 0 auto;
   white-space: nowrap;
 }
 
 section {
-  max-width: 695px;
+  max-width: 43.4375rem;
 }
 
 #befoglalo > nav {
   width: 100%;
   background-color: #f00;
-  margin-top: 160px;
+  margin-top: 10rem;
   position: absolute;
   z-index: -1;
 }
 
 nav > ul {
-  max-width: 690px;
-  border-right: 5px solid hsl(0, 100%, 50%);
+  max-width: 43.125rem;
+  border-right: 0.3125rem solid hsl(0, 100%, 50%);
   background-color: #fff;
 }
 
 nav > ul li {
-  width: 171px;
+  width: 10.6875rem;
 }
 
 nav li a {
   font-size: 0.825em;
-  padding: 0.9em 0 0 50px;
+  padding: 0.9em 0 0 3.125rem;
 }
 
 .temadoboz {
   float: left;
-  width: 171px;
-  height: 152px;
+  width: 10.6875rem;
+  height: 9.5rem;
 }
 
 .temadoboz:nth-child(3) {
-  /*border: 1px solid red;*/
+  /*border: 0.0625rem solid red;*/
 }
 
 .temadoboz ul {
@@ -63,8 +63,8 @@ nav li a {
 }
 
 .temadoboz img {
-  max-width: 171px;
-  max-height: 152px;
+  max-width: 10.6875rem;
+  max-height: 9.5rem;
 }
 
 #d1 {
@@ -73,28 +73,28 @@ nav li a {
 }
 
 #d2 {
-    margin-top: 200px;
+    margin-top: 12.5rem;
     position: absolute;
     float: none;
 }
 
 #fejlec {
-  background: #fff url('../img/logo.jpg') no-repeat 30px center;
-  max-width: 690px;
-  margin: 50px auto 25px;
-  height: 50px;
-  background-size: 50px;
+  background: #fff url('../img/logo.svg') no-repeat 1.875rem center;
+  max-width: 43.125rem;
+  margin: 3.125rem auto 1.5625rem;
+  height: 3.125rem;
+  background-size: 3.125rem;
 }
 
 #lablec {
-  max-width: 690px;
+  max-width: 43.125rem;
 }
 
 main {
   float: right;
-  min-height: 353px;
-  max-width: 521px;
-  margin-left: 172px;
+  min-height: 22.0625rem;
+  max-width: 520.0625rem;
+  margin-left: 10.75rem;
   font-size: 1em;
 }
 
@@ -119,15 +119,15 @@ main article time {
 }
 
 main article iframe {
-  min-height: 500px;
+  min-height: 31.25rem;
 }
 
 #menu {
   float: right;
-  margin-right: 15px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  box-shadow: -1px -1px 2px 1px rgba(0, 0, 0, 0.3);
+  margin-right: 0.9375rem;
+  border-top-left-radius: 0.1875rem;
+  border-top-right-radius: 0.1875rem;
+  box-shadow: -0.0625rem -0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.3);
   position: relative;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;

@@ -5,13 +5,13 @@
 .temadoboz {
   float: left;
   width: 49.6%;
-  min-width: 150px;
-  min-height: 152px;
+  min-width: 9.375em;/*150px*/
+  min-height: 9.5em;/*152px*/
   font-size: 0.8em;
 }
 
 #sor1 .temadoboz {
-  border-radius: 10px 10px 0 0;
+  border-radius: 0.625rem 0.625rem 0 0;/*10px 10px 0 0*/
 }
 
 .temadoboz:nth-child(odd) {
@@ -35,7 +35,7 @@ nav {
 nav li {
   float: left;
   width: 49.6%;
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.0625rem solid #fff;/*1px*/
 }
 
 nav li a {

@@ -13,6 +13,14 @@ a:hover {
   text-decoration: underline;
 }
 
+section > div > ul {
+  list-style-image: url('../img/list-l.jpg');  
+}
+
+section > div > ul li:hover{
+  list-style-image: url('../img/list-r.jpg');  
+}
+
 h1 {
   font-size: 1.5em;
   padding: 25px 0 0 100px;
@@ -30,17 +38,21 @@ nav {
   background-color: #f00;
   margin-top: 160px;
   position: absolute;
-  z-index: -1;
+  z-index: -1;  
 }
 
 nav > ul {
   max-width: 695px;
   border-right: 5px solid hsla(48, 100%, 51%, 0.8);
   background-right-color: #fff;
+  height: 45px;
 }
 
 nav > ul li {
   width: 171px;
+  height: 45px;
+  border-left: 1px solid #fff;
+
 }
 
 nav li a {
@@ -53,6 +65,8 @@ nav li a {
   float: left;
   width: 171px;
   height: 152px;
+  border-left: 1px solid #fff;
+
 }
 
 .temadoboz ul {
@@ -75,6 +89,8 @@ nav li a {
 #d1 {
   position: absolute;
   float: none;
+  border-top: 1px solid #fff;
+
 }
 
 
@@ -104,12 +120,15 @@ main {
   margin-left: 172px;
   font-size: 1em;
   background-color: #939FA6;
+  border: 1px solid #fff;
 }
 
 table thead tr th,
 table tbody tr th {  
   font-weight: bold;
   min-width: 9em;
+  border-right: 1px solid #000;
+
 }
 
 table tbody tr td {
@@ -152,7 +171,7 @@ main article time {
 }
 
 #szolgaltatasok {
-  background: #f00 url('../img/szerszamok3.jpg') no-repeat 10px center;
+  background: #f00 url('../img/konyv.jpg') no-repeat 10px center;
 }
 
 #kepek {
@@ -162,6 +181,35 @@ main article time {
 #kapcsolat {
   background: #7f7f7f url('../img/kukac3.jpg') no-repeat 10px center;
 }
+
+.ugras{
+  margin: 10px 10px 10px 15px;
+  border: 1px solid #fff;
+
+}
+
+main article,
+  main article iframe {
+  margin: 10px 10px 10px 15px;
+  padding: 10px;
+}
+
+main article iframe {
+  min-height: 100px;
+}
+
+#menu {
+  border: 1px solid #fff;
+  height: 25px;
+
+}
+
+#menu a,
+  #ugras a {
+  height: 25px;
+}
+
+
 
 /*main div {*/
   /*display: block;*/ /*!!! Ha később kellene a main-ben a div !!!*/

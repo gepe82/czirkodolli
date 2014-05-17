@@ -1,6 +1,6 @@
 h1 {
   font-size: 1.5em;
-  padding: 25px 0 15px 100px;
+  padding: 1.5625rem 0 0.9375rem 6.25rem;/*25px 0 15px 100px*/
   text-align: left;
   font-weight: bold;
   white-space: nowrap;
@@ -11,10 +11,10 @@ nav {
   width: 100%;
   clear: both;
   background-color: hsl(0, 100%, 50%); /*#CD1925*/
-  height: 45px;
-  border-top: 1px solid #fff;
+  height: 2.8125em;/*45px*/
+  border-top: 0.0625rem solid #fff;/*1px*/
   margin: 0 auto;
-  box-shadow: 0 0px 2px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.15);/*0 0 2px 3px rgba(0, 0, 0, 0.15)*/
   max-width: none;
   min-height: 0;
   border-radius: 0;
@@ -22,40 +22,45 @@ nav {
 
 nav > ul {
   margin: 0 auto;
-  width: 690px;
-  height: 45px;
+  width: 43.125rem;/*690px*/
+  height: 2.8125rem;/*45px*/
   border-right: 5px solid #f00; /*#CD1925*/
 }
 
 nav > ul li {
   float: left;
-  width: 171px;
-  height: 45px;
+  width: 10.6875rem;/*171px*/
+  height: 2.8125rem;/*45px*/
   clear: none;
 }
 
 nav li a {
-  padding: 0.9em 0 0 50px;
-  height: 45px;
+  padding: 0.9em 0 0 3.125rem;/*50px*/
+  height: 2.8125em;/*45px*/
   font-size: 0.825em;
 }
 
 section {
-  width: 695px;
+  width: 43.4375rem;/*695px*/
   clear: left;
 }
 
 .temadoboz {
-  float: left;
-  width: 171px;
-  height: 152px;
+  float: left;  
+  width: 10.6875rem;/*171px*/
+  height: 9.5rem;/*152px*/
+  min-width: none;/*171px*/
+  min-height: none;/*152px*/
+  
+  /*max-width: auto;
+  min-height: 8.5em;*//*136px*/
 }
 
 .temadoboz img {
   width: 100%;
   height: auto;
-  max-width: 171px;
-  max-height: 152px;
+  min-width: 10.6875rem;/*171px*/
+  min-height: 9.5rem;/*152px*/
 }
 
 .temadoboz ul {
@@ -72,15 +77,15 @@ section {
 }
 
 #fejlec {
-  background: #fff url('../img/logo.jpg') no-repeat 30px center;
-  background-size: 50px;
-  width: 690px;
-  margin: 50px auto 25px;
-  height: 50px;
+  background: #fff url('../img/logo.svg') no-repeat 1.875rem center;/*30px*/
+  background-size: 3.125rem;/*50px*/
+  width: 43.125rem;/*690px*/
+  margin: 3.125rem auto 1.5625rem;/*50px auto 25px*/
+  height: 3.125em;/*50px*/
 }
 
 #lablec {
-  width: 690px;
+  width: 43.125rem;/*690px*/
 }
 
 #d4 {
@@ -88,9 +93,9 @@ section {
 }
 
 #sor2 .temadoboz:nth-child(3) {
-  box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px 5px 8px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
-  background-size: 36px;
+  background-size: 2.25rem;/*36px*/
 }

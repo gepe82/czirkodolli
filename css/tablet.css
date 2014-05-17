@@ -5,8 +5,8 @@ h1 {
 .temadoboz {
   float: left;
   width: 33.1%;
-  max-width: 267px;
-  min-height: 136px;
+  max-width: 16.6875rem;/*267px*/
+  min-height: 8.5rem;/*136px*/
   font-size: 0.8em;
 }
 
@@ -15,11 +15,12 @@ h1 {
 }
 
 #sor1 .temadoboz {
-  border-radius: 10px;
+  border-radius: 0.625rem;/*10px*/
 }
 
 #sor2 .temadoboz:nth-child(3) {
-  box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: -0.25rem -0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px -5px 8px 1px rgba(0, 0, 0, 0.3);*/
+  
 }
 
 #d4 {
@@ -39,25 +40,25 @@ nav {
   float: left;
   clear: none;
   width: 33.2%;
-  border-radius: 5px;
-  max-width: 267px;
-  min-height: 132px;
+  border-radius: 0.3125rem;/*5px*/
+  max-width: 16.6875rem;/*267px*/
+  min-height: 8.25rem;/*132px*/
   overflow: hidden;
 }
 
 nav li {
   clear: both;
   width: 100%;
-  min-height: 33px;
+  min-height: 2.0625rem;/*33px*/
 }
 
 nav li a {
-  padding: 7px 0.5em 0 40px;
-  min-height: 26px;
+  padding: 0.4375rem 0.5em 0 2.5rem;/*7px 0.5em 0 40px*/
+  min-height: 1.625rem;/*26px*/
 }
 
 #magamrol, #kepek, #szolgaltatasok, #kapcsolat {
-  background-size: 25px;
+  background-size: 1.5625rem;/*25px*/
 }
 
 #kepek {

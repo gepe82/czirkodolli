@@ -14,6 +14,14 @@ a, a:link, a:hover, a:visited, a:active {
   color: #1a1a1a;
 }
 
+section > div > ul {
+  list-style-image: url('../img/list-l.jpg');  
+}
+
+section > div > ul li:hover{
+  list-style-image: url('../img/list-r.jpg');  
+}
+
 nav {
   overflow: hidden;
   width: 100%;
@@ -51,7 +59,7 @@ nav li a {
 }
 
 #szolgaltatasok {
-  background: #f00 url('../img/szerszamok3.jpg') no-repeat 10px center;
+  background: #f00 url('../img/konyv.jpg') no-repeat 10px center;
 }
 
 #kepek {

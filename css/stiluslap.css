@@ -3,7 +3,7 @@
 @import url('stiluslap-spec.css') screen,handheld;
 
 body {
-  margin-top: 25px;
+  margin-top: 1.5625em;/*25px*/
 }
 
 #befoglalo {
@@ -19,7 +19,7 @@ a, a:link, a:hover, a:visited, a:active {
 }
 
 nav {
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.0625rem solid #fff;/*1px*/
   background-color: #fff;  
 }
 
@@ -30,10 +30,10 @@ nav > ul {
 }
 
 nav li {
-  border-left: 1px solid #fff;
+  border-left: 0.0625rem solid #fff;
   font-size: 1.125em;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   color: #fff;
   transition-property: transform;
   transform-style: preserve-3d;  
@@ -41,7 +41,7 @@ nav li {
 
 nav li a {
   display: block;
-  padding: 1em 1em 1em 50px;
+  padding: 1em 1em 1em 3.125rem;
   color: #fff;
 }
 
@@ -58,19 +58,19 @@ nav > ul li:hover {
 }
 
 #magamrol {
-  background: hsl(0, 0%, 0%) url('../img/haz3.jpg') no-repeat 10px center;
+  background: hsl(0, 0%, 0%) url('../img/haz3.jpg') no-repeat 0.625rem center;
 }
 
 #szolgaltatasok {
-  background: hsl(0, 100%, 50%) url('../img/szerszamok3.jpg') no-repeat 10px center;
+  background: hsl(0, 100%, 50%) url('../img/konyv.jpg') no-repeat 0.625rem center;
 }
 
 #kepek {
-  background: hsl(0, 0%, 0%) url('../img/galeria3.jpg') no-repeat 10px center;
+  background: hsl(0, 0%, 0%) url('../img/galeria3.jpg') no-repeat 0.625rem center;
 }
 
 #kapcsolat {
-  background: hsl(0, 0%, 50%) url('../img/kukac3.jpg') no-repeat 10px center;
+  background: hsl(0, 0%, 50%) url('../img/kukac3.jpg') no-repeat 0.625rem center;
 }
 
 section {
@@ -79,18 +79,18 @@ section {
 }
 
 section > div > ul {
-  list-style-image: url('../img/list-l.jpg');
+  list-style-image: url('../img/list-l.svg');
   transition-property: list-stlye-image;
 }
 
 section > div > ul li:hover{
-  list-style-image: url('../img/list-r.jpg');
+  list-style-image: url('../img/list-r.svg');
   transition-duration: 0.75s;
 }
 
 .temadoboz {
-  border-left: 1px solid #fff;
-  border-radius: 10px;
+  border-left: 0.0625rem solid #fff;
+  border-radius: 0.625rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -114,7 +114,7 @@ section > div > ul li:hover{
   height: auto;
   max-width: 100%;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
   z-index: -1;
   display: block;
 }
@@ -126,13 +126,13 @@ section > div > ul li:hover{
 
 #sor1 .temadoboz {
   border-top: 1px solid #fff;
-  box-shadow: -4px -5px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: -0.25rem -0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*4px -5px 8px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #sor1 .temadoboz:hover,
   #sor1 .temadoboz:focus,
   #sor1 .temadoboz img:hover {
-  border-top-left-radius: 50px;
+  border-top-left-radius: 3.125rem;/*50px*/
 }
 
 #sor2 .temadoboz,
@@ -142,19 +142,19 @@ section > div > ul li:hover{
 
 #sor2 .temadoboz{
   border-bottom: 1px solid #fff;
-  box-shadow: -4px 5px 8px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: -0.25rem 0.3125rem 0.5rem 0.0625rem rgba(0, 0, 0, 0.3);/*-4px 5px 8px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #sor2 .temadoboz:hover,
   #sor2 .temadoboz:focus,
   #sor2 .temadoboz img:hover {
-  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 3.125rem;/*50px*/
 }
 
 #fejlec{
-  background: #fff url('../img/logo.jpg') no-repeat center 0.2em;
+  background: #fff url('../img/logo.svg') no-repeat center 0.2em;
   animation: beuszas 2s ease-in-out;
-  background-size: 50px;
+  background-size: 3.125rem;/*50px*/
 }
 
 h1 {
@@ -188,13 +188,13 @@ h1 {
     right: 0;
     background-color: #939fa6;
     border: 1px solid #fff;
-    height: 25px;
+    height: 1.5625rem;/*25px*/
     z-index: 2;
     padding: 0 0.4em;
     text-align: center;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 0.1875rem;/*3px*/
+    border-bottom-right-radius: 0.1875rem;/*3px*/
+    box-shadow: -0.0625rem 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.3);/*-1px 1px 2px 1px rgba(0, 0, 0, 0.3)*/
 }
 
 #menu a {
@@ -202,7 +202,7 @@ h1 {
     color: #fff;
     font-weight: bold;
     text-shadow: 0 0 5px #fff;
-    height: 25px;
+    height: 1.5625rem;/*25px*/
     transition: text-shadow 0.2s;
 }
 
@@ -214,7 +214,7 @@ h1 {
  }
 
  #menu a:hover {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 0.0625rem #fff;/*1px*/
  }
 
 @keyframes beuszas {
