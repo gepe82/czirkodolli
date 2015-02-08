@@ -26,7 +26,7 @@ h1 a {
   /*width: 100%;*/
   background-size: 3.125rem;
   margin: 1rem auto 0;
-  padding: 2em 0 0.5em;  
+  padding: 2em 0 0.5em;
 }
 
 h1 a, h1 a:active, h1 a:visited, h1 a:link, h1 a:hover {
@@ -397,4 +397,12 @@ main article ul {
 
 .js_show {
   display: none;
+}
+
+ol {
+  padding: 0 0 1em 2em;
+}
+
+.alert {
+    color: red;
 }
