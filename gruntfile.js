@@ -11,6 +11,12 @@ module.exports = function(grunt) {
                 files: {
                     'assets/js/images.min.js' : ['js/jquery-1.4.2.min.js', 'js/jquery-ui-1.10.3.custom.min.js', 'js/jquery.prettyPhoto-compressed.js', 'js/images.min.js']
                 }
+            },
+            // concat js file of page services
+            services: {
+                files: {
+                    'assets/js/services.min.js' : ['js/jquery-1.4.2.min.js', 'js/jquery-ui-1.10.3.custom.min.js', 'js/services.min.js']
+                }
             }
 		},
 
@@ -25,6 +31,12 @@ module.exports = function(grunt) {
             images: {
                 files: {
                     'js/images.min.js': ['js/kepek.js', 'js/js.js']
+                }
+            },
+            // minify js files of page services
+            services: {
+                files: {
+                    'js/services.min.js': ['js/szolgaltatasok.js', 'js/js.js']
                 }
             }
         },
@@ -108,6 +120,11 @@ module.exports = function(grunt) {
     grunt.registerTask('page-images', [
         'uglify:images',
         'concat:images'
+    ]);
+
+    grunt.registerTask('page-services', [
+        'uglify:services',
+        'concat:services'
     ]);
 
     grunt.registerTask('pages', [
