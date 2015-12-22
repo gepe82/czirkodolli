@@ -17,6 +17,12 @@ module.exports = function(grunt) {
                 files: {
                     'assets/js/services.min.js' : ['js/jquery-1.4.2.min.js', 'js/jquery-ui-1.10.3.custom.min.js', 'js/services.min.js']
                 }
+            },
+            // concat js file of page contact
+            contact: {
+                files: {
+                    'assets/js/contact.min.js' : ['js/jquery-1.10.1.min.map.js', 'js/contact.min.js']
+                }
             }
 		},
 
@@ -37,6 +43,12 @@ module.exports = function(grunt) {
             services: {
                 files: {
                     'js/services.min.js': ['js/szolgaltatasok.js', 'js/js.js']
+                }
+            },
+            // minify js files of page contact
+            contact: {
+                files: {
+                    'js/contact.min.js': ['js/kapcsolat.js', 'js/js.js']
                 }
             }
         },
@@ -125,6 +137,11 @@ module.exports = function(grunt) {
     grunt.registerTask('page-services', [
         'uglify:services',
         'concat:services'
+    ]);
+
+    grunt.registerTask('page-contact', [
+        'uglify:contact',
+        'concat:contact'
     ]);
 
     grunt.registerTask('pages', [
