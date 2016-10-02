@@ -120,13 +120,21 @@ module.exports = function(grunt) {
 				files: ['js/*.js'],
 				tasks: ['jshint']
 			},
+            css: {
+                files: ['css/*.css'],
+                tasks: ['cssmin'],
+                options: {
+                    spawn: false,
+                    livereload: true
+                }
+            },
 			html: {
 				files: ['*.html'],
 				options: {
 					spawn: false,
 					livereload: true
 				}
-			}
+			},
 		}
 
 	});
