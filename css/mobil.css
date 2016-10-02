@@ -72,3 +72,16 @@ nav li a {
   border-top-left-radius: 3.125rem;
   border-bottom-left-radius: 0.625rem;
 }
+
+div.baby-break {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.baby-break img {
+  margin: 0 auto;
+}
+
+nav p.info {
+  color: #000;
+}

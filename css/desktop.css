@@ -130,3 +130,11 @@ section {
   left: -10000px;
   position: absolute;
 }
+
+nav p.info {
+  color: #fff;
+}
+
+nav p.info > a, nav p.info > a:visited {
+  color: #000;
+}
