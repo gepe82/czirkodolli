@@ -4,6 +4,7 @@
 /*@import url('desktop.css') only screen and (min-width:801px);*/
 /*@import url('large.css') only screen and (min-width:1281px);*/
 
+/* 0. szint: stiluslap.css - Ezt irja felul a megfelelo media querynek az alabbiak kozul */
 @import url('mobil.css') only screen and (min-width:330px);
 @import url('tablet.css') only screen and (min-width:570px);/** Iphone 5 határ felett egy picivel (568)**/
 @import url('desktop.css') only screen and (min-width:690px);

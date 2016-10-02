@@ -69,6 +69,14 @@ module.exports = function(grunt) {
 			all: ['css/*.css']
 		},
 
+        /**
+         * Index es old-index eseten:
+         * 0. stiluslap
+         * 1. mobil (media.css)
+         * 2. tablet  (media.css)
+         * 3. desktop (media.css)
+         * 4. large (media.css)
+         */
 		cssmin: {
             // minify css file for page index
 			dist: {
